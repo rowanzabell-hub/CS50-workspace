@@ -1,0 +1,22 @@
+#!/bin/sh
+# Appends a compact insertion/deletion count to the FIRST line of GitDoc's
+# auto-generated commit messages, so it's visible in GitHub's commit list
+# (which hides everything after the first line behind a "..." toggle), e.g.:
+#   Tue, Sep 9, 2025, 3:13 PM -07:00  (+10/-18)
+
+COMMIT_MSG_FILE="$1"
+COMMIT_SOURCE="$2"
+
+case "$COMMIT_SOURCE" in
+  merge|squash) exit 0 ;;
+esac
+
+if grep -Eq '\(\+[0-9]+/-[0-9]+\)' "$COMMIT_MSG_FILE" 2>/dev/null; then
+  exit 0
+fi
+
+STATS=$(git diff --cached --numstat | awk '{ins+=$1; del+=$2} END {if (NR>0) printf "+%d/-%d", ins, del}')
+
+if [ -n "$STATS" ]; then
+  awk -v stats="$STATS" 'NR==1{$0=$0"  ("stats")"} {print}' "$COMMIT_MSG_FILE" > "$COMMIT_MSG_FILE.tmp" && mv "$COMMIT_MSG_FILE.tmp" "$COMMIT_MSG_FILE"
+fi
