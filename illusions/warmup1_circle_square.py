@@ -15,12 +15,12 @@ def draw_circle_and_square(canvas):
     at how far the circle pokes out past the square's edges.
     """
     canvas.set_pen_color(canvas.BLUE)
-    canvas.rectangle(400, 250, 150, 200)
+    canvas.rectangle(250, 250, 200, 200)
 
     canvas.set_pen_color(canvas.RED)
     # BUG: This circle's numbers (aka arguments) are all wrong!
     # Change the arguments so the circle neatly fills the square
-    canvas.circle(150, 150, 150)
+    canvas.circle(150, 310, 150)
 
 
 
