@@ -1,6 +1,6 @@
 """
 Warm-Up 1: Circle and Square
-
+python3 warmup1_circle_square.pypython3 warmup1_circle_square.py
 There's a bug in draw_circle_and_square() below: the circle is too
 big for the square. Find and fix it.
 """
@@ -15,7 +15,7 @@ def draw_circle_and_square(canvas):
     at how far the circle pokes out past the square's edges.
     """
     canvas.set_pen_color(canvas.BLUE)
-    canvas.rectangle(250, 250, 300, 300)
+    canvas.rectangle(250, 300, 200, 200)
 
     canvas.set_pen_color(canvas.RED)
     # BUG: This circle's numbers (aka arguments) are all wrong!
