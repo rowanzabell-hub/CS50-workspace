@@ -18,6 +18,7 @@ def draw_crosshairs(canvas):
 
     # BUG: this only reaches from the center to the right edge.
     canvas.line(0, 250, 500, 250)
+    canvas.line(250, 0, 250, 500)
 
     # TODO: add another line through the center from top to bottom
 
