@@ -5,10 +5,6 @@ draw_circle_border() below only draws two of the canvas's four
 borders (top and bottom). Finish it.
 """
 import canvas2d
-for i in range(11):
-    left_right_y = i * 50
-    canvas.filled_circle(0, left_right_y, 25)
-    canvas.filled_circle(500, left_right_y, 25)
 
 
 
@@ -31,10 +27,10 @@ def draw_circle_border(canvas):
         canvas.filled_circle(top_bottom_x, 500, 25)
 
     # TODO: for i in range(11):
-    left_right_y = i * 50
-    canvas.filled_circle(0, left_right_y, 25)
-    canvas.filled_circle(500, left_right_y, 25)
-    # edges, spaced the same way as the top/bottom loop above.
+    for i in range(11):
+        left_right_y = i * 50
+        canvas.filled_circle(0, left_right_y, 25)
+        canvas.filled_circle(500, left_right_y, 25)
 
 
 
