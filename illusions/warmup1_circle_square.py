@@ -21,7 +21,7 @@ def draw_circle_and_square(canvas):
     # BUG: This circle's numbers (aka arguments) are all wrong!
     # Change the arguments so
     # the circle neatly fills the square
-    canvas.circle(50, 130, 110)
+    canvas.circle(250, 130, 100)
 
 
 
