@@ -17,7 +17,7 @@ def draw_crosshairs(canvas):
     canvas.set_pen_color(canvas.RED)
 
     # BUG: this only reaches from the center to the right edge.
-    canvas.line(250, 250, 500, 250)
+    canvas.line(0, 250, 500, 250)
 
     # TODO: add another line through the center from top to bottom
 
