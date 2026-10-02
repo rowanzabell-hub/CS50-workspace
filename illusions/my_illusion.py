@@ -19,20 +19,21 @@ def draw_my_illusion(canvas):
     canvas.set_pen_color(canvas.BLACK)
     canvas.set_pen_width(2)
 
-    for i in range(24):
-        angle = math.radians(i * 15)
-        x = 500 + 700 * math.cos(angle)
-        y = 500 + 700 * math.sin(angle)
-        canvas.line(500 - 700 * math.cos(angle),
-                    500 - 700 * math.sin(angle), x, y)
+    for i in range(48):
+        angle = math.radians(i * 7.5)
+        x1 = 500 - 700 * math.cos(angle)
+        y1 = 500 - 700 * math.sin(angle)
+        x2 = 500 + 700 * math.cos(angle)
+        y2 = 500 + 700 * math.sin(angle)
+        canvas.line(x1, y1, x2, y2)
 
     # Red vertical parallel lines in front
     canvas.set_pen_color(canvas.RED)
-    canvas.set_pen_width(5)
+    canvas.set_pen_width(2)
 
     for i in range(5):
         x = 300 + i * 100
-        canvas.line(x, 100, x, 900)
+        canvas.line(x, 0, x, 1000)
 
 
 def main():
