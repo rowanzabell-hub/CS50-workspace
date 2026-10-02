@@ -11,8 +11,25 @@ import canvas2d
 
 def draw_my_illusion(canvas):
     """Draw your chosen illusion."""
-    # TODO: replace this with your illusion
-    canvas.rectangle(250, 250, 200, 200)
+    # Hering's Illusion
+
+    canvas.set_pen_color(canvas.RED)
+    canvas.set_pen_width(4)
+
+    for i in range(15):
+        y = 100 + i * 60
+        canvas.line(100, y, 900, y)
+
+    canvas.set_pen_color(canvas.BLACK)
+    canvas.set_pen_width(3)
+
+    for i in range(13):
+        x = 200 + i * 50
+        canvas.line(500, 500, x, 100)
+
+    for i in range(13):
+        x = 200 + i * 50
+        canvas.line(500, 500, x, 900)
 
 
 def main():
