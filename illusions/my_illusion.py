@@ -1,3 +1,4 @@
+
 """
 The Assignment: Your Illusion
 
@@ -7,29 +8,31 @@ number of shapes, line thickness, or anything else) so your version
 is distinct from the original, without breaking the illusion.
 """
 import canvas2d
+import math
 
 
 def draw_my_illusion(canvas):
     """Draw your chosen illusion."""
     # Hering's Illusion
 
-    canvas.set_pen_color(canvas.RED)
-    canvas.set_pen_width(4)
-
-    for i in range(15):
-        y = 100 + i * 60
-        canvas.line(100, y, 900, y)
-
+    # Black radiating lines in the background
     canvas.set_pen_color(canvas.BLACK)
-    canvas.set_pen_width(3)
+    canvas.set_pen_width(2)
 
-    for i in range(13):
-        x = 200 + i * 50
-        canvas.line(500, 500, x, 100)
+    for i in range(24):
+        angle = math.radians(i * 15)
+        x = 500 + 700 * math.cos(angle)
+        y = 500 + 700 * math.sin(angle)
+        canvas.line(500 - 700 * math.cos(angle),
+                    500 - 700 * math.sin(angle), x, y)
 
-    for i in range(13):
-        x = 200 + i * 50
-        canvas.line(500, 500, x, 900)
+    # Red vertical parallel lines in front
+    canvas.set_pen_color(canvas.RED)
+    canvas.set_pen_width(5)
+
+    for i in range(5):
+        x = 300 + i * 100
+        canvas.line(x, 100, x, 900)
 
 
 def main():
