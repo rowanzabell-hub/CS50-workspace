@@ -29,19 +29,11 @@ def main():
 
 # Task 1: finish this function (delete "pass" once you add your code)
 def draw_tree(scene, cx, cz, height):
-    # Brown cylinder for the trunk
-    trunk_height = height * 0.6
-    trunk_radius = height * 0.08
-    scene.add_cylinder(cx, trunk_height / 2, cz,
-                       trunk_radius, trunk_height,
-                       102, 51, 0)
+    # TODO: draw a brown cylinder for the trunk
 
-    # Green ellipsoid for the leaves
-    leaves_height = height * 0.4
-    leaves_radius = height * 0.25
-    scene.add_ellipsoid(cx, trunk_height + leaves_height / 2, cz,
-                        leaves_radius, leaves_height / 2, leaves_radius,
-                        0, 255, 0)
+    # TODO: draw a green ellipsoid for the leaves
+
+    pass
 
 # Task 2 and beyond: define your own functions!
 
