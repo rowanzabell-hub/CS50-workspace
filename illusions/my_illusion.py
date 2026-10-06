@@ -1,17 +1,20 @@
 def draw_my_illusion(canvas):
-    # Hering's Illusion
-
-    # Lots of very thin black curved lines
+    # Black curved-looking lines
     canvas.set_pen_color(canvas.BLACK)
     canvas.set_pen_width(1)
 
-    for i in range(70):
-        offset = i * 14
+    for i in range(100):
+        angle = math.radians(i * 3.6)
 
-        canvas.arc(500 - offset, 250, 1000 + offset * 2, 500, 0, 180)
-        canvas.arc(500 - offset, 250, 1000 + offset * 2, 500, 180, 180)
+        x1 = 500 - 900 * math.cos(angle)
+        y1 = 500 - 900 * math.sin(angle)
 
-    # Two thin red vertical lines in the middle
+        x2 = 500 + 900 * math.cos(angle)
+        y2 = 500 + 900 * math.sin(angle)
+
+        canvas.line(x1, y1, x2, y2)
+
+    # Two thin red vertical lines
     canvas.set_pen_color(canvas.RED)
     canvas.set_pen_width(2)
 
