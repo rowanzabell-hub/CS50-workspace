@@ -28,7 +28,7 @@ def main():
     draw_city_block(scene, 0, -25)
     draw_city_block(scene, 30, -25)
     scene.save_scene("simplescene.html", "Simple Sample Scene")
-
+    draw_sedan(scene, cx, cz, r, g, b, ry=0)
 # Task 1: finish this function (delete "pass" once you add your code)
 def draw_tree(scene, cx, cz, height):
     scene.add_cylinder(cx, height / 4, cz, height / 8, height / 2, 102, 51, 0)
@@ -67,7 +67,7 @@ def draw_stop_light(scene, cx, cz):
     scene.add_sphere(cx + 7, 6.2, cz + 0.4, 0.3, 0, 255, 0)
 
 def draw_sedan(scene, cx, cz, r, g, b, ry=0):
-    group = scene.add_group(cx, 0, cz, rx, 0, rz)
+    group = scene.add_group(cx, 0, cz, 90, 0, 0)
     car = scene.add_group(cx, 0, cz, 0, ry, 0)
 
     # Car body
