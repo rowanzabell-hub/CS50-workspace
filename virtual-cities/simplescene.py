@@ -67,8 +67,8 @@ def draw_stop_light(scene, cx, cz):
     scene.add_sphere(cx + 7, 6.2, cz + 0.4, 0.3, 0, 255, 0)
 
 def draw_sedan(scene, cx, cz, r, g, b, ry=0):
-    group = scene.add_group(cx, 0, cz, 90, 0, 0)
-    car = scene.add_group(cx, 0, cz, 0, ry, 0)
+    group = scene.add_group(cx, cy, cz, 90, 0, 0)
+    car = scene.add_group(cx, cy, cz, 0, ry, 0)
 
     # Car body
     group.add_box(0, 0.85, 0, 4.5, 0.7, 1.7, r, g, b)
