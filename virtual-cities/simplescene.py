@@ -23,8 +23,6 @@ def main():
     draw_tree(scene,-3, -8, 8)
     draw_tree(scene,-2, -9, 10)
     draw_fire_hydrant(scene, 2, -8)
-
-    # Draw a cyan cow and a smokestack with "meshes"
     add_meshes(scene)
     # Draw two city blocks
     draw_city_block(scene, 0, -25)
