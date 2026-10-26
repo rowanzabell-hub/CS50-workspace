@@ -28,7 +28,7 @@ def main():
     draw_city_block(scene, 0, -25)
     draw_city_block(scene, 30, -25)
     scene.save_scene("simplescene.html", "Simple Sample Scene")
-    draw_sedan(scene, cx, cz, r, g, b, ry=0)
+    draw_sedan(scene, 4, 2, 255, 0, 0, ry=0)
 
 def draw_tree(scene, cx, cz, height):
     scene.add_cylinder(cx, height / 4, cz, height / 8, height / 2, 102, 51, 0)
