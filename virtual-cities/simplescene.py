@@ -69,13 +69,14 @@ def draw_stop_light(scene, cx, cz):
     scene.add_sphere(cx + 7, 6.2, cz + 0.4, 0.3, 0, 255, 0)
 
 def draw_sedan(scene, cx, cz, r, g, b, ry=0):
+    group = scene.add_group(cx, 0, cz, rx, 0, rz)
     car = scene.add_group(cx, 0, cz, 0, ry, 0)
 
     # Car body
-    car.add_box(0, 0.85, 0, 4.5, 0.7, 1.7, r, g, b)
+    group.add_box(0, 0.85, 0, 4.5, 0.7, 1.7, r, g, b)
 
     # Car cabin
-    car.add_box(-0.3, 1.55, 0, 3.5, 0.8, 1.4, r, g, b)
+    group.add_box(-0.3, 1.55, 0, 3.5, 0.8, 1.4, r, g, b)
 
     # Four wheels
     for x in [-1.5, 1.5]:
