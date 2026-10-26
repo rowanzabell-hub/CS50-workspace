@@ -20,21 +20,88 @@ def main():
     simple_snowman(scene, 5, -6)
 
     # TODO (Task 1): call draw_tree to plant a tree. Remember to pass scene first!
-
+    draw_tree(scene,-3, -8, 8)
+    draw_tree(scene,-2, -9, 10)
+    draw_fire_hydrant(scene, 2, -8)
 
     # Draw a cyan cow and a smokestack with "meshes"
     add_meshes(scene)
-
+    # Draw two city blocks
+    draw_city_block(scene, 0, -25)
+    draw_city_block(scene, 30, -25)
     scene.save_scene("simplescene.html", "Simple Sample Scene")
 
 # Task 1: finish this function (delete "pass" once you add your code)
 def draw_tree(scene, cx, cz, height):
-    # TODO:scene.add_cylinder(cx, height / 4, cz, height / 8, height / 2, 102, 51, 0)
-    # TODO:scene.add_ellipsoid(cx, height * 3 / 4, cz, height / 3, height / 4, height / 3, 0, 255, 0)
+    scene.add_cylinder(cx, height / 4, cz, height / 8, height / 2, 102, 51, 0)
+    scene.add_ellipsoid(cx, height * 3 / 4, cz, height / 3, height / 4, height / 3, 0, 255, 0)
 
-    pass
+
 
 # Task 2 and beyond: define your own functions!
+
+
+def draw_fire_hydrant(scene, cx, cz):
+    scene.add_cylinder(cx, 0.15, cz, 0.35, 0.3, 255, 0, 0)
+    scene.add_cylinder(cx, 0.55, cz, 0.25, 0.6, 255, 0, 0)
+    scene.add_sphere(cx, 0.85, cz, 0.2, 255, 0, 0)
+    scene.add_box(cx - 0.35, 0.65, cz, 0.3, 0.2, 0.2, 255, 0, 0)
+    scene.add_box(cx + 0.35, 0.65, cz, 0.3, 0.2, 0.2, 255, 0, 0)
+
+
+def draw_stop_light(scene, cx, cz):
+    # Vertical pole
+    scene.add_cylinder(cx, 4, cz, 0.15, 8, 100, 100, 100)
+
+    # Horizontal pole
+    scene.add_box(cx + 4, 8, cz, 8, 0.2, 0.2, 100, 100, 100)
+
+    # Black traffic light housing
+    scene.add_box(cx + 7, 7, cz, 1, 2.5, 0.7, 30, 30, 30)
+
+    # Red light
+    scene.add_sphere(cx + 7, 7.8, cz + 0.4, 0.3, 255, 0, 0)
+
+    # Yellow light
+    scene.add_sphere(cx + 7, 7, cz + 0.4, 0.3, 255, 255, 0)
+
+    # Green light
+    scene.add_sphere(cx + 7, 6.2, cz + 0.4, 0.3, 0, 255, 0)
+
+def draw_sedan(scene, cx, cz, r, g, b, ry=0):
+    car = scene.add_group(cx, 0, cz, 0, ry, 0)
+
+    # Car body
+    car.add_box(0, 0.85, 0, 4.5, 0.7, 1.7, r, g, b)
+
+    # Car cabin
+    car.add_box(-0.3, 1.55, 0, 3.5, 0.8, 1.4, r, g, b)
+
+    # Four wheels
+    for x in [-1.5, 1.5]:
+        for z in [-0.9, 0.9]:
+            car.add_cylinder(x, 0.5, z, 0.5, 0.2,
+                             127, 127, 127, rx=90)
+
+
+
+def draw_city_block(scene, cx, cz):
+    # Building
+    scene.add_box(cx, 6, cz - 15, 10, 12, 8, 180, 190, 220)
+
+    # Two trees with different heights
+    draw_tree(scene, cx - 8, cz - 8, 6)
+    draw_tree(scene, cx + 8, cz - 8, 9)
+
+    # Fire hydrant
+    draw_fire_hydrant(scene, cx - 5, cz - 3)
+
+    # Traffic light
+    draw_stop_light(scene, cx - 12, cz - 5)
+
+    # Two cars
+    draw_sedan(scene, cx - 4, cz + 4, 255, 50, 50)
+    draw_sedan(scene, cx + 5, cz + 4, 50, 100, 255, 90)
 
 
 

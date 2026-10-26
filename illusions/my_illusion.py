@@ -19,10 +19,10 @@ def draw_my_illusion(canvas):
 
     # Two thin red vertical lines
     canvas.set_pen_color(canvas.RED)
-    canvas.set_pen_width(2)
+    canvas.set_pen_width(5)
 
-    canvas.line(475, 0, 475, 1000)
-    canvas.line(525, 0, 525, 1000)
+    canvas.line(350, 0, 350, 1000)
+    canvas.line(650, 0, 650, 1000)
 
 
 def main():
@@ -33,9 +33,4 @@ def main():
 
 
 if __name__ == "__main__":
-
-
-
-
-
     main()
