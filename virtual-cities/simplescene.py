@@ -75,9 +75,6 @@ def draw_sedan(scene, cx, cz, r, g, b, ry=0):
     # Car cabin
     group.add_box(-0.3, 1.55, 0, 3.5, 0.8, 1.4, r, g, b)
 
-    # Four wheels
-    group.add_cylinder(3, 0.5, 3, 0.5, 0.2, 127, 127, 127, rx=90)
-
 
 
 def draw_city_block(scene, cx, cz):
