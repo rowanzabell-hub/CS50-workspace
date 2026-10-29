@@ -95,7 +95,7 @@ def draw_city_block(scene, cx, cz):
     draw_sedan(scene, cx - 4, cz + 4, 255, 50, 50)
     draw_sedan(scene, cx + 5, cz + 4, 50, 100, 255, 90)
 
-
+    #group.add_cylinder(0, height/2, 0, 0.3, height, 102, 51, 0)
 
 
 
