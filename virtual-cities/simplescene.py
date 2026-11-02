@@ -39,32 +39,7 @@ def draw_tree(scene, cx, cz, height):
 # Task 2 and beyond: define your own functions!
 
 
-def draw_fire_hydrant(scene, cx, cz):
-    scene.add_cylinder(cx, 0.15, cz, 0.35, 0.3, 255, 0, 0)
-    scene.add_cylinder(cx, 0.55, cz, 0.25, 0.6, 255, 0, 0)
-    scene.add_sphere(cx, 0.85, cz, 0.2, 255, 0, 0)
-    scene.add_box(cx - 0.35, 0.65, cz, 0.3, 0.2, 0.2, 255, 0, 0)
-    scene.add_box(cx + 0.35, 0.65, cz, 0.3, 0.2, 0.2, 255, 0, 0)
 
-
-def draw_stop_light(scene, cx, cz):
-    # Vertical pole
-    scene.add_cylinder(cx, 4, cz, 0.15, 8, 100, 100, 100)
-
-    # Horizontal pole
-    scene.add_box(cx + 4, 8, cz, 8, 0.2, 0.2, 100, 100, 100)
-
-    # Black traffic light housing
-    scene.add_box(cx + 7, 7, cz, 1, 2.5, 0.7, 30, 30, 30)
-
-    # Red light
-    scene.add_sphere(cx + 7, 7.8, cz + 0.4, 0.3, 255, 0, 0)
-
-    # Yellow light
-    scene.add_sphere(cx + 7, 7, cz + 0.4, 0.3, 255, 255, 0)
-
-    # Green light
-    scene.add_sphere(cx + 7, 6.2, cz + 0.4, 0.3, 0, 255, 0)
 
 def draw_sedan(scene, cx, cz, r, g, b, ry=0):
     group = scene.add_group(cx,0, cz, 0, ry, 0)
@@ -82,22 +57,20 @@ def draw_city_block(scene, cx, cz):
     # Building
     scene.add_box(cx, 6, cz - 15, 10, 12, 8, 180, 190, 220)
 
-    # Two trees with different heights
-    draw_tree(scene, cx - 8, cz - 8, 6)
-    draw_tree(scene, cx + 8, cz - 8, 9)
+    # Two tulips with different heights
 
-    # Fire hydrant
-    draw_fire_hydrant(scene, cx - 5, cz - 3)
 
-    # Traffic light
-    draw_stop_light(scene, cx - 12, cz - 5)
+    # traffic cone
+
+
+    # Street light
+
 
     # Two cars
     draw_sedan(scene, cx - 4, cz + 4, 255, 50, 50)
     draw_sedan(scene, cx + 5, cz + 4, 50, 100, 255, 90)
 
-    group.add_cylinder(cx, height/2, 0, 0.3, height, 128,128,128)
-    group.add_cylinder(cx, height/2, 0, 0.3, height, 128,128,128)
+    # building (make box)
 
 
 
