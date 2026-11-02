@@ -21,6 +21,7 @@ def main():
 
     # TODO (Task 1): call tulip() to plant a tulip. Remember to pass scene first!
     tulip(scene, 2, 4, 6)
+    tulip(scene, 3, 5, 12)
 
 
     # Draw two city blocks
