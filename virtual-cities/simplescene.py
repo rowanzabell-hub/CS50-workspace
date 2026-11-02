@@ -35,6 +35,8 @@ def main():
     scene.save_scene("simplescene.html", "Simple Sample Scene")
 
 
+def tulip(scene, cx, cz, height):
+    
 
 # Task 2 and beyond: define your own functions!
 
