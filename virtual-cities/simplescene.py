@@ -20,7 +20,7 @@ def main():
     simple_snowman(scene, 5, -6)
 
     # TODO (Task 1): call tulip() to plant a tulip. Remember to pass scene first!
-
+    tulip(scene, 2, 4, 6)
 
 
     # Draw two city blocks
@@ -37,7 +37,7 @@ def main():
 
 def tulip(scene, cx, cz, height):
     #add_cylinder(cx, cy, cz, radius, height, r, g, b)
-    scene.add_cylinder(cx,2,cy,.9,20,)
+    scene.add_cylinder(cx, 2, cy, .9, 20, 0, 255, 0)
 
 # Task 2 and beyond: define your own functions!
 
