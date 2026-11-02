@@ -19,20 +19,20 @@ def main():
     simple_snowman(scene, 0, -12)
     simple_snowman(scene, 5, -6)
 
-    # TODO (Task 1): call draw_tree to plant a tree. Remember to pass scene first!
-    draw_tree(scene,-3, -8, 8)
-    draw_tree(scene,-2, -9, 10)
-    draw_fire_hydrant(scene, 2, -8)
-    add_meshes(scene)
-    # Draw two city blocks
-    draw_city_block(scene, 0, -25)
-    draw_city_block(scene, 30, -25)
-    scene.save_scene("simplescene.html", "Simple Sample Scene")
-    draw_sedan(scene, 4, 2, 255, 0, 0, ry=90)
+    # TODO (Task 1): call tulip() to plant a tulip. Remember to pass scene first!
 
-def draw_tree(scene, cx, cz, height):
-    scene.add_cylinder(cx, height / 4, cz, height / 8, height / 2, 102, 51, 0)
-    scene.add_ellipsoid(cx, height * 3 / 4, cz, height / 3, height / 4, height / 3, 0, 255, 0)
+
+
+    # Draw two city blocks
+
+
+
+
+
+
+    add_meshes(scene)
+
+    scene.save_scene("simplescene.html", "Simple Sample Scene")
 
 
 
