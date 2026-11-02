@@ -36,7 +36,8 @@ def main():
 
 
 def tulip(scene, cx, cz, height):
-    
+    #add_cylinder(cx, cy, cz, radius, height, r, g, b)
+    scene.add_cylinder()
 
 # Task 2 and beyond: define your own functions!
 
