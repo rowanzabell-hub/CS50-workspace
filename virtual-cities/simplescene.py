@@ -26,7 +26,7 @@ def main():
     draw_sedan(scene, 10, 5, 232, 92, 145)
     streetlight(scene, 8, 4)
     traffic_cone(scene, 6, 4)
-    
+
     draw_city_block(scene, 0, 0)
     draw_city_block(scene, 30, 0)
     add_meshes(scene)
@@ -77,7 +77,7 @@ def draw_city_block(scene, cx, cz):
     tulip(group, 2, 0, 2)
 
     # traffic cone
-
+    traffic_cone(group, 5, 0)
 
     # Street light
 
