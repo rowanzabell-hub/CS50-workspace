@@ -53,6 +53,9 @@ def traffic_cone(scene, cx, cz):
 
 def streetlight(scene, cx, cz,):
 
+
+    
+
 def draw_sedan(scene, cx, cz, r, g, b, ry=0):
     group = scene.add_group(cx,0, cz, 0, ry, 0)
 
