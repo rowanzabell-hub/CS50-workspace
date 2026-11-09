@@ -73,7 +73,7 @@ def draw_city_block(scene, cx, cz):
 
     # Two tulips with different heights
     group= scene.add_group(cx, 0, cz, 0, 0, 0)
-    tulip(scene, cx, cz, 1)
+    tulip(scene, cx, cz, -5, 1)
     tulip(scene, cx )
 
     # traffic cone
