@@ -77,7 +77,6 @@ def draw_city_block(scene, cx, cz):
     tulip(group, 2, 0, 2)
 
     # traffic cone
-    traffic_cone(scene, cx, cz)
     traffic_cone(group, 5, 0)
     # Street light
     streetlight(group, 8, 0)
