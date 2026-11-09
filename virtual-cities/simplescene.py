@@ -30,7 +30,7 @@ def main():
 
 
 
-
+    streetlight(scene, 8, 4)
     traffic_cone(scene, 6, 4)
 
     add_meshes(scene)
