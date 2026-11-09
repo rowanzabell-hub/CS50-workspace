@@ -49,6 +49,7 @@ def traffic_cone(scene, cx, cz):
     scene.add_box(cx, 0.1, cz, 0.8, 0.2, 0.8, 255, 165, 0)
     #add_cone(cx, cy, cz, radius, height, r, g, b)
     scene.add_cone(cx, 0.7, cz, 0.3, 1, 255, 165, 0)
+    scene.add_cylinder(cx, 0.6, cz, 0.22, 0.12, 255, 255, 255)
 
 def draw_sedan(scene, cx, cz, r, g, b, ry=0):
     group = scene.add_group(cx,0, cz, 0, ry, 0)
