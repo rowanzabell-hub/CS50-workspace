@@ -26,7 +26,7 @@ def main():
 
     # Draw two city blocks
 
-
+    draw_sedan(scene, 10, 5, 232, 92, 145)
 
 
 
