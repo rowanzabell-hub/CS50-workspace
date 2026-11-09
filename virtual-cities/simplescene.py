@@ -51,11 +51,12 @@ def traffic_cone(scene, cx, cz):
     scene.add_cone(cx, 0.7, cz, 0.3, 1, 244, 154, 98)
     scene.add_cylinder(cx, 0.6, cz, 0.22, 0.12, 255, 255, 255)
 
-def streetlight(scene, cx, cz,):
-
-
+def streetlight(scene, cx, cz):
+    #add_cylinder(cx, cy, cz, radius, height, r, g, b,)
+    scene.add_cylinder(cx, 2, cz, 0.15, 4, 100, 100, 100)
+    #add_box(cx, cy, cz, width, height, depth, r, g, b)
+    scene.add_box(cx, 4, cz, 0.8, 0.3, 0.5, 255, 255, 180)
     
-
 def draw_sedan(scene, cx, cz, r, g, b, ry=0):
     group = scene.add_group(cx,0, cz, 0, ry, 0)
 
