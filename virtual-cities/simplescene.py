@@ -26,7 +26,9 @@ def main():
     draw_sedan(scene, 10, 5, 232, 92, 145)
     streetlight(scene, 8, 4)
     traffic_cone(scene, 6, 4)
-
+    
+    draw_city_block(scene, 0, 0)
+    draw_city_block(scene, 30, 0)
     add_meshes(scene)
 
     scene.save_scene("simplescene.html", "Simple Sample Scene")
