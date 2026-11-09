@@ -43,8 +43,8 @@ def tulip(scene, cx, cz, height):
 # Task 2 and beyond: define your own functions!
 
 def traffic_cone(scene, cx, cz):
-
-
+    #add_box(cx, cy, width, height, depth, r, g, b)
+    scene.add_box(cx, 0.1, cz, 0.8, 0.2, 0.8, 255, 165, 0)
 def draw_sedan(scene, cx, cz, r, g, b, ry=0):
     group = scene.add_group(cx,0, cz, 0, ry, 0)
 
