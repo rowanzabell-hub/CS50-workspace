@@ -50,7 +50,7 @@ def streetlight(scene, cx, cz):
     #add_cylinder(cx, cy, cz, radius, height, r, g, b,)
     scene.add_cylinder(cx, 2, cz, 0.15, 4, 100, 100, 100)
     #add_box(cx, cy, cz, width, height, depth, r, g, b)
-    scene.add_box(cx, 4, cz, 0.8, 0.3, 0.5, 255, 255, 180)
+    scene.add_box(cx, 2.7, cz, 0.8, 0.3, 0.5, 255, 255, 180)
     scene.add_box( cx, 0.15, cz, 0.7, 0.3, 0.7, 100, 100, 100)
     scene.add_box(cx, 4.2, cz, 2, 0.2, 0.2, 80, 80, 80)
 
