@@ -70,7 +70,7 @@ def draw_city_block(scene, cx, cz):
     scene.add_box(cx, 6, cz - 15, 10, 12, 8, 180, 190, 220)
 
     # Two tulips with different heights
-
+    tulip(scene, cx, cz, 1)
 
     # traffic cone
 
