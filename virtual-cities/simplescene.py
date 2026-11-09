@@ -78,9 +78,9 @@ def draw_city_block(scene, cx, cz):
 
     # traffic cone
     traffic_cone(scene, cx, cz)
-
+    traffic_cone(group, 5, 0)
     # Street light
-
+    streetlight(group, 8, 0)
 
     # Two cars
     draw_sedan(scene, cx - 4, cz + 4, 255, 50, 50)
