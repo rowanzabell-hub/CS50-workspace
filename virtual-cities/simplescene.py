@@ -23,13 +23,7 @@ def main():
     tulip(scene, 1, 3, 1)
     tulip(scene, 2, 4, 2)
 
-
-    # Draw two city blocks
-
     draw_sedan(scene, 10, 5, 232, 92, 145)
-
-
-
     streetlight(scene, 8, 4)
     traffic_cone(scene, 6, 4)
 
