@@ -46,7 +46,6 @@ def traffic_cone(scene, cx, cz):
     scene.add_cylinder(cx, 0.6, cz, 0.22, 0.12, 255, 255, 255)
 
 def streetlight(scene, cx, cz):
-    group = scene.add_group(cx, 0, cz, 0, 0, 0)
     #add_cylinder(cx, cy, cz, radius, height, r, g, b,)
     scene.add_cylinder(cx, 2, cz, 0.15, 4, 100, 100, 100)
     #add_box(cx, cy, cz, width, height, depth, r, g, b)
