@@ -50,7 +50,7 @@ def streetlight(scene, cx, cz):
     #add_cylinder(cx, cy, cz, radius, height, r, g, b,)
     scene.add_cylinder(cx, 2, cz, 0.15, 4, 100, 100, 100)
     #add_box(cx, cy, cz, width, height, depth, r, g, b)
-    group.add_box(s.7, 3.95, 0, 0.7, 0.25, 0.5, 255, 255, 180)
+    group.add_box(2.7, 3.95, 0, 0.7, 0.25, 0.5, 255, 255, 180)
     scene.add_box( cx, 0.15, cz, 0.7, 0.3, 0.7, 100, 100, 100)
     group.add_box(1.5, 4.2, 0, 3, 0.2, 0.2, 80, 80, 80)
 def draw_sedan(scene, cx, cz, r, g, b, ry=0):
