@@ -67,7 +67,7 @@ def draw_sedan(scene, cx, cz, r, g, b, ry=0):
 
     # Car cabin
     group.add_box(-0.3, 1.55, 0, 3.5, 0.8, 1.4, r, g, b)
-    group.add_cylinder(-1.8, 0.7, 0.5, 0.3, 0.2, 40, 40, 40, rx=90)
+    group.add_cylinder(-1.8, 0.5, 0.9, 0.25, 0.2, 40, 40, 40, rx=90)
     group.add_cylinder(1.8, 0.7, 0.3, 0.2, 40, 40, 40, rx=90)
     group.add_cylinder(-1.8,0.7, -0.5, 0.3, 0.2, 40, 40, 40, rx=90)
     group.add_cylinder(1.8, 0.7, -0.5, 0.3, 0.2, 40, 40, 40, rx=90)
