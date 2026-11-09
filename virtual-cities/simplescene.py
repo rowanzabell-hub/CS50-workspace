@@ -34,7 +34,7 @@ def main():
 
 def tulip(scene, cx, cz, height):
     #add_cylinder(cx, cy, cz, radius, height, r, g, b)
-    scene.add_cylinder(cx, 1, cz, .1, height, 35, 101, 51)
+    scene.add_cylinder(cx, height/2, cz, .1, height, 35, 101, 51)
     scene.add_cone(cx, height, cz, .25, .6, 232, 92, 145, rz=180)
 # Task 2 and beyond: define your own functions!
 
