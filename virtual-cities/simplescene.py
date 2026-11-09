@@ -40,15 +40,15 @@ def main():
 
 def tulip(scene, cx, cz, height):
     #add_cylinder(cx, cy, cz, radius, height, r, g, b)
-    scene.add_cylinder(cx, 1, cz, .1, height, 120, 136, 91)
-    scene.add_cone(cx, 2 , cz, .25, .6, 242, 123, 145, rz=180)
+    scene.add_cylinder(cx, 1, cz, .1, height, 35, 101, 51)
+    scene.add_cone(cx, 2 , cz, .25, .6, 218, 112, 214, rz=180)
 # Task 2 and beyond: define your own functions!
 
 def traffic_cone(scene, cx, cz):
     #add_box(cx, cy, width, height, depth, r, g, b)
-    scene.add_box(cx, 0.1, cz, 0.8, 0.2, 0.8, 242, 139, 89)
+    scene.add_box(cx, 0.1, cz, 0.8, 0.2, 0.8, 244, 154, 98)
     #add_cone(cx, cy, cz, radius, height, r, g, b)
-    scene.add_cone(cx, 0.7, cz, 0.3, 1, 242, 139, 89)
+    scene.add_cone(cx, 0.7, cz, 0.3, 1, 244, 154, 98)
     scene.add_cylinder(cx, 0.6, cz, 0.22, 0.12, 255, 255, 255)
 
 def draw_sedan(scene, cx, cz, r, g, b, ry=0):
