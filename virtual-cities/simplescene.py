@@ -20,8 +20,8 @@ def main():
     simple_snowman(scene, 5, -6)
 
     # TODO (Task 1): call tulip() to plant a tulip. Remember to pass scene first!
-    tulip(scene, 2, 4, 3)
-    tulip(scene, 3, 5, 4)
+    tulip(scene, 1, 3, 1)
+    tulip(scene, 2, 4, 2)
 
 
     # Draw two city blocks
