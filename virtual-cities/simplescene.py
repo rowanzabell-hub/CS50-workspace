@@ -51,7 +51,7 @@ def streetlight(scene, cx, cz):
     #add_box(cx, cy, cz, width, height, depth, r, g, b)
     scene.add_box(cx, 4, cz, 0.8, 0.3, 0.5, 255, 255, 180)
     scene.add_box( cx, 0.15, cz, 0.7, 0.3, 0.7, 100, 100, 100)
-    scene.add_box(cx, 4.2, cz, 1, 0.2, 0.7, 80, 80, 80)
+    scene.add_box(cx, 4.2, cz, 2, 0.2, 0.2, 80, 80, 80)
 
 def draw_sedan(scene, cx, cz, r, g, b, ry=0):
     group = scene.add_group(cx,0, cz, 0, ry, 0)
@@ -95,7 +95,7 @@ def simple_snowman(scene, cx, cz):
     scene.add_sphere(cx, 2.5, cz, 0.7, 255, 255, 255)
     # Black box for a hat, sitting on top of the head
     scene.add_box(cx, 3.4, cz, 0.7, 0.4, 0.7, 0, 0, 0)
-    
+
 
 def setup_lights(scene):
     scene.add_point_light(-100, 200, 0, 200, 200, 200, 1.0)
