@@ -95,7 +95,7 @@ def simple_snowman(scene, cx, cz):
     scene.add_sphere(cx, 2.5, cz, 0.7, 255, 255, 255)
     # Black box for a hat, sitting on top of the head
     scene.add_box(cx, 3.4, cz, 0.7, 0.4, 0.7, 0, 0, 0)
-
+    scene.add_sphere(cx)
 
 def setup_lights(scene):
     scene.add_point_light(-100, 200, 0, 200, 200, 200, 1.0)
