@@ -55,7 +55,7 @@ def streetlight(scene, cx, cz):
     group.add_box(2.7, 3.95, 0, 0.7, 0.25, 0.5, 255, 255, 180)
     scene.add_box( cx, 0.15, cz, 0.7, 0.3, 0.7, 100, 100, 100)
     group.add_box(1.5, 4.2, 0, 3, 0.2, 0.2, 80, 80, 80)
-
+    group.add_box(2.7, 4.1, 0, 0.9, 0.15, 0.6, 80, 80, 80)
 def draw_sedan(scene, cx, cz, r, g, b, ry=0):
     group = scene.add_group(cx,0, cz, 0, ry, 0)
 
