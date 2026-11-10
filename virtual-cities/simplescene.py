@@ -23,7 +23,7 @@ def main():
     tulip(scene, 1, 3, 1)
     tulip(scene, 2, 4, 2)
     tulip(scene, 3, 4, 5)
-    draw_sedan(scene, 10, 5, 232, 92, 145)
+    draw_sedan(scene, 10, 5, 255, 0, 0)
     streetlight(scene, 8, 4)
     traffic_cone(scene, 6, 4)
 
