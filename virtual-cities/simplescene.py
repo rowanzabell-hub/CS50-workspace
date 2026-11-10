@@ -37,7 +37,7 @@ def main():
 def tulip(scene, cx, cz, height):
     #add_cylinder(cx, cy, cz, radius, height, r, g, b)
     scene.add_cylinder(cx, height/2, cz, .1, height, 150, 234, 133)
-    scene.add_cone(cx, height, cz, .25, .6,240, 106, 238, rz=180)
+    scene.add_cone(cx, height, cz, .25, .6,255, 0, 0, rz=180)
 # Task 2 and beyond: define your own functions!
 
 def traffic_cone(scene, cx, cz):
