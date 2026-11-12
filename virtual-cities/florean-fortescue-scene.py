@@ -87,7 +87,26 @@ def draw_grand_entrance(scene):
     #gold dorway frame
     scene.add_box(0, 3.2,3.4,2.6, 6.3, 0.2, 255, 200, 70)
     # rasberry doorway backround
-    scene.add_box(0, 3.2, 3.55, 2.3)
+    scene.add_box(0, 3.2, 3.55, 2.3, 6, 0.1, 150, 35, 75)
+    #pink double doors
+    scene.add_box(-0.58, 3.1, 3.65, 1.05, 5.7, 0.1, 255, 165, 195)
+    scene.add_box(0.58, 3.1, 3.65, 1.05, 5.7, 0.1, 255, 165, 195)
+    #gold mid div
+    scene.add_box(0, 3.1, 3.75, 0.08, 5.8, 0.1, 225, 200, 70)
+
+    #transparent glass panels
+    scene.add_box
+    scene.add_box
+
+    #gold door handels
+    scene.add_sphere
+    scene.add_sphere
+
+
+
+    scene.add_box
+    scene.add_box
+
 
 
 def setup_lights(scene):
