@@ -80,9 +80,7 @@ def draw_ice_cream_shop(scene, cx, cz):
         #cream mid div
         scene.add_box(cx, 5, 3.45, 2.1, 0.12, 0.1, 245, 219, 165)
         #cream bottom div
-        scene.add_box(cx, 2.3, 3.45, 2.1, 0.12, 0.1, 2)
-
-
+        scene.add_box(cx, 2.3, 3.45, 2.1, 0.12, 0.1, 245, 219, 165)
 
 
 
