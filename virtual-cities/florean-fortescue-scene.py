@@ -81,13 +81,13 @@ def draw_rainbow_window(scene, cx):
     # diagonal gold lines
     scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rz=45)
     scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rz=-45)
-    
+
     # pastel rainbow glass
-    scene.add_sphere
-    scene.add_sphere
-    scene.add_sphere
-    scene.add_sphere
-    scene.add_sphere
+    scene.add_sphere(cx, 22, 3.65, 0.28, 255, 170, 190)
+    scene.add_sphere(cx, 20, 3.65, 0.28, 180, 150, 255)
+    scene.add_sphere(cx, 21.5, 3.65, 0.28, 255, 210, 130)
+    scene.add_sphere(cx, 20.5, 3.65, 0.28, 140, 220, 180)
+    scene.add_sphere(cx, 21,)
     scene.add_sphere
 
     # gold center
