@@ -100,7 +100,7 @@ def setup_cameras(scene):
 
 def add_ground(scene):
     # Add a large gray box for the ground
-    scene.add_box(0, -25, 0, 1000, 50, 1000, 100, 100, 100)
+    scene.add_box(0, -25, 0, 1000, 50, 1000, 255, 255, 255)
 
 
 main()
