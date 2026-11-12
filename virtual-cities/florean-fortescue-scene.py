@@ -39,7 +39,7 @@ def draw_ice_cream_shop(scene, cx, cz):
 
 def draw_fairytale_window(scene, cx):
     #deep purple outer fraim
-     scene.add_box(cx, 21, 3.15, 2.1, 4.5, 0.2, 97, 55, 122)
+    scene.add_box(cx, 21, 3.15, 2.1, 4.5, 0.2, 97, 55, 122)
     # round purple top
     scene.add_cylinder(cx, 23.25, 3.15, 1.05, 0.2, 97, 55, 122, rx=90)
     # Lav glass
@@ -55,10 +55,10 @@ def draw_rainbow_window(scene, cx):
     # deep purple frame
     scene.add_cylinder(cx, 21, 3.15, 1.75, 0.2, 97, 55, 122, rx=90)
     # Orch inner frame
-     scene.add_cylinder(cx, 21, 3.3, 1.5, 0.2, 189, 128, 206, rx=90)
+    scene.add_cylinder(cx, 21, 3.3, 1.5, 0.2, 189, 128, 206, rx=90)
     # gold inner circle
-     scene.add_cylinder(cx, 21, 3.45, 1.3, 0.2, 235, 196, 125, rx=90)
-     #RAINBOW DECORRRR
+    scene.add_cylinder(cx, 21, 3.45, 1.3, 0.2, 235, 196, 125, rx=90)
+    #RAINBOW DECORRRR
     scene.add_sphere(-0.7, 21.7, 3.6, 0.48, 244, 163, 186)
     scene.add_sphere(0, 22, 3.6, 0.48, 242, 203, 116)
     scene.add_sphere(0.7, 21.7, 3.6, 0.48, 166, 218, 220)
