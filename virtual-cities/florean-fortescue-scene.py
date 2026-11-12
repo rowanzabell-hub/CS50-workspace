@@ -43,7 +43,14 @@ def draw_display_window(scene, cx):
     scene.add_box(cx, 5, 3.2, 2.5, 7.2, 0.2, 255, 200, 70)
     #clear mint class
     scene.add_box(cx, 5, 2.2, 6.9, 0.1, 183, 228, 176, opacity=0.4)
+    # gold div
+    scene.add_box(cx, 5, 3.5, 0.08, 6.9, 0.1, 255, 200, 70)
+    # gold mid
+    scene.add_box(cx, 5, 3.5, 2.2, 0.08, 0.1, 255, 200, 70)
+    # gold low
+    scene.add_box(cx, 3, 3.5, 2.2, 0.08, 0.1, 255, 200, 70)
 
+def draw_fairytail_window
 
 
 
