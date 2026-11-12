@@ -86,6 +86,8 @@ def draw_rainbow_window(scene, cx):
 def draw_grand_entrance(scene):
     #gold dorway frame
     scene.add_box(0, 3.2,3.4,2.6, 6.3, 0.2, 255, 200, 70)
+    # rasberry doorway backround
+    scene.add_box(0, 3.2, 3.55, 2.3)
 
 
 def setup_lights(scene):
