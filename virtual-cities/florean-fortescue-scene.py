@@ -55,8 +55,8 @@ def draw_fairytail_window(scene, cx):
     scene.add_box(cx, 21, 3.2, 2.1, 4.5, 0.2, 255, 200, 70)
     # rounded gold top
     scene.add_cylinder(23.25, 3.1, 1.05, 0.2, 255, 200, 70, rx=90)
-      # transparent pink glass
-      scene.add_box(cx, 21, 3.4, 1.8, 4.2, 0.1, 255, 105, 180, opacity=0.4)
+    # transparent pink glass
+    scene.add_box(cx, 21, 3.4, 1.8, 4.2, 0.1, 255, 105, 180, opacity=0.4)
 
     # rounded pink glass
     scene.add_cylinder(cx, 23.1, 3.4, 0.85, 0.1, 255, 105, 180, rx=90, opacity=0.4)
