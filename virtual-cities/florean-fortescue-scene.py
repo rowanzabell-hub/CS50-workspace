@@ -42,7 +42,7 @@ def draw_display_window(scene, cx):
     # gold frame
     scene.add_box(cx, 5, 3.2, 2.5, 7.2, 0.2, 255, 200, 70)
     #clear mint class
-    scene.add_box(cx, 5, 2.2, 6.9, 0.1, 183, 228, 176, opacity=0.4)
+    scene.add_box(cx, 5, 3.4, 2.2, 6.9, 0.1, 183, 228, 176, opacity=0.4)
     # gold div
     scene.add_box(cx, 5, 3.5, 0.08, 6.9, 0.1, 255, 200, 70)
     # gold mid
@@ -80,7 +80,7 @@ def draw_rainbow_window(scene, cx):
     # diagonal gold lines
     scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rz=45)
     scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rz=-45)
-    
+
     # gold center
     scene.add_sphere(cx, 21, 3.8, 0.2, 255, 200, 70)
 
