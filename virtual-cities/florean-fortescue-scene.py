@@ -37,7 +37,7 @@ def draw_ice_cream_shop(scene, cx, cz):
     draw_display_window(scene, 3.4)
 
 def draw_living_wall(scence, cx, cz):
-    scene.add_box(cx, 5, cz, 10, 10, 10, 6, )
+    scene.add_box(cx, 5, cz, 10, 10, 10, 6, 30, 86, 49)
 
 
 def draw_fairytale_window(scene, cx):
