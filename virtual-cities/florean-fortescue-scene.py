@@ -50,9 +50,30 @@ def draw_display_window(scene, cx):
     # gold low
     scene.add_box(cx, 3, 3.5, 2.2, 0.08, 0.1, 255, 200, 70)
 
-def draw_fairytail_window
+def draw_fairytail_window(scene, cx):
+    # gold outer frame
+    scene.add_box(cx, 21, 3.2, 2.1, 4.5, 0.2, 255, 200, 70)
+    # rounded gold top
+    scene.add_cylinder(23.25, 3.1, 1.05, 0.2, 255, 200, 70, rx=90)
+      # transparent pink glass
+      scene.add_box(cx, 21, 3.4, 1.8, 4.2, 0.1, 255, 105, 180, opacity=0.4)
 
+    # rounded pink glass
+    scene.add_cylinder(cx, 23.1, 3.4, 0.85, 0.1, 255, 105, 180, rx=90, opacity=0.4)
+    # gold vertical divider
+    scene.add_box(cx, 21, 3.5, 0.08, 4.2, 0.1, 255, 200, 70)
+    # gold horizontal divider
+    scene.add_box(cx, 21, 3.5, 1.8, 0.08, 0.1, 255, 200, 70)
 
+def draw_rainbow_window(scene, cx):
+
+    # gold outer circle
+    scene.add_cylinder(cx, 21, 3.2, 1.75, 0.2, 255, 200, 70, rx=90)
+    # pink stained glass
+    scene.add_cylinder(cx, 21, 3.4, 1.5, 0.1, 255, 105, 180, rx=90, opacity=0.4)
+    # raspberry inner circle
+    scene.add_cylinder(cx, 21, 3.5, 1.1, 0.1, 217, 50, 81, rx=90, opacity=0.5)
+    
 
 def setup_lights(scene):
     scene.add_point_light(-100, 200, 0, 200, 200, 200, 1.0)
