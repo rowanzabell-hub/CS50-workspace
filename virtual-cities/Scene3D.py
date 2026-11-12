@@ -288,7 +288,7 @@ class Scene3D:
             ry: Rotation about y-axis, in degrees (default 0)
             rz: Rotation about z-axis, in degrees (default 0)
         """
-        self._scene_code += f"canvas.addBox({cx},{cy},{cz},{xlen},{ylen},{zlen},{r},{g},{b},{roughness},{metalness},{rx},{ry},{rz}, undefined,{opacity});\n"
+        self._scene_code += f"canvas.addBox({cx},{cy},{cz},{xlen},{ylen},{zlen},{r},{g},{b},{roughness=1},{metalness=0},{rx=0},{ry=0},{rz=0}, undefined,{opacity});\n"
 
     def add_cylinder(self, cx, cy, cz, radius, height, r, g, b,
                      roughness=1, metalness=0, rx=0, ry=0, rz=0, sx=1, sy=1, sz=1):
