@@ -76,7 +76,7 @@ def draw_rainbow_window(scene, cx):
     # thin gold vertical line
     scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70)
     # thin gold horizontal line
-    scene.add_box(cx, 21, 3.6, 0.06, 0.1, 255, 200, 70)
+    scene.add_box(cx, 21, 3.6,3.4, 0.06, 0.1, 255, 200, 70)
     # diagonal gold lines
     scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rz=45)
     scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rz=-45)
