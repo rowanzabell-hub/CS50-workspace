@@ -39,7 +39,7 @@ def draw_ice_cream_shop(scene, cx, cz):
 
     def draw_fairytale_window(scene, cx):
         #deep purple outer fraim
-    scene.add_box(cx, 21, 3.15, 2.1, 4.5, 0.2, 97, 55, 122)
+        scene.add_box(cx, 21, 3.15, 2.1, 4.5, 0.2, 97, 55, 122)
      # round purple top
     scene.add_cylinder(cx, 23.25, 3.15, 1.05, 0.2, 97, 55, 122, rx=90)
     # Lav glass
