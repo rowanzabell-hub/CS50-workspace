@@ -54,7 +54,7 @@ def draw_fairytail_window(scene, cx):
     # gold outer frame
     scene.add_box(cx, 21, 3.2, 2.1, 4.5, 0.2, 255, 200, 70)
     # rounded gold top
-    scene.add_cylinder(23.25, 3.1, 1.05, 0.2, 255, 200, 70, rx=90)
+    scene.add_cylinder(cx, 23.25, 3.1, 1.05, 0.2, 255, 200, 70, rx=90)
     # transparent pink glass
     scene.add_box(cx, 21, 3.4, 1.8, 4.2, 0.1, 255, 105, 180, opacity=0.4)
 
@@ -78,8 +78,8 @@ def draw_rainbow_window(scene, cx):
     # thin gold horizontal line
     scene.add_box(cx, 21, 3.6, 0.06, 0.1, 255, 200, 70)
     # diagonal gold lines
-    scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rx=45)
-    scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rx=-45)
+    scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rz=45)
+    scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rz=-45)
     # gold center
     scene.add_sphere(cx, 21, 3.8, 0.2, 255, 200, 70)
 
