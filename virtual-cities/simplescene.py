@@ -71,6 +71,7 @@ def draw_sedan(scene, cx, cz, r, g, b, ry=0):
 def draw_city_block(scene, cx, cz):
     # Building
     scene.add_box(cx, 6, cz - 15, 10, 12, 8, 180, 190, 220)
+    
 
      # Two tulips with different heights
     group= scene.add_group(cx, 0, cz, 0, 0, 0)
