@@ -21,6 +21,7 @@ def main():
 def draw_ice_cream_shop(scene, cx, cz):
     scene.add_box(cx, 5, cz, 10, 10, 6, 240, 170, 148)
     scene.add_box(cx, 13, cz, 10, 6, 6, 184, 150, 224)
+    scene.add_box(cx, 21, cz, 10, 10, 6, 120, 189, 184)
 
 
 
