@@ -19,6 +19,7 @@ def main():
 
 def draw_ice_cream_shop(scene, cx, cz):
     scene.add_box(cx, 5, cz, 10, 10, 6, 235, 205, 175)
+    
 def tulip(scene, cx, cz, height):
     #add_cylinder(cx, cy, cz, radius, height, r, g, b)
     scene.add_cylinder(cx, height/2, cz, .1, height, 150, 234, 133)
