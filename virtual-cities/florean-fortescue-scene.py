@@ -19,12 +19,13 @@ def main():
     scene.save_scene("florean-fortescue.html", "Florean Fortescue's Ice Cream Parlour HP")
 
 def draw_ice_cream_shop(scene, cx, cz):
-    # peach colored floor ( bottom)
-    scene.add_box(cx, 5, cz, 10, 10, 6, 240, 170, 148)
-    # purple middle floor (middle)
-    scene.add_box(cx, 13, cz, 10, 6, 6, 184, 150, 224)
-    # teal top floor (top)
-    scene.add_box(cx, 21, cz, 10, 10, 6, 120, 189, 184)
+    #coral pink bottom floor
+    scene.add_box(cx, 5, cz, 10, 10, 6, 255, 138, 118)
+    # rasberry red middle floor
+    scene.add_box(cx, 13, cz, 10, 6, 6, 217, 50, 81)
+    # watermelon pink top floor
+    scene.add_box(cx, 21, cz, 10, 10, 6, 243, 107, 130)
+    
     # fairy arch windows (top)
     draw_fairytale_window(scene, -3.4)
     draw_fairytale_window(scene, 3.4)
