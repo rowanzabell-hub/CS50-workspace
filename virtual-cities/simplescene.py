@@ -29,6 +29,7 @@ def main():
 
     draw_city_block(scene, 0, 0)
     draw_city_block(scene, 30, 0)
+    draw_city_block(scene, 50, 0)
     add_meshes(scene)
 
     scene.save_scene("simplescene.html", "Simple Sample Scene")
@@ -71,7 +72,7 @@ def draw_sedan(scene, cx, cz, r, g, b, ry=0):
 def draw_city_block(scene, cx, cz):
     # Building
     scene.add_box(cx, 6, cz - 15, 10, 12, 8, 180, 190, 220)
-    
+
 
      # Two tulips with different heights
     group= scene.add_group(cx, 0, cz, 0, 0, 0)
