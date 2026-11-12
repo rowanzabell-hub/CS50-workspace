@@ -87,8 +87,8 @@ def draw_rainbow_window(scene, cx):
     scene.add_sphere(cx, 20, 3.65, 0.28, 180, 150, 255)
     scene.add_sphere(cx, 21.5, 3.65, 0.28, 255, 210, 130)
     scene.add_sphere(cx, 20.5, 3.65, 0.28, 140, 220, 180)
-    scene.add_sphere(cx, 21,)
-    scene.add_sphere
+    scene.add_sphere(cx, 21.7, 3.65, 0.28, 140, 200, 250)
+    scene.add_sphere(cx, 20.3, 3.65, 0.28, 255, 160, 120)
 
     # gold center
     scene.add_sphere(cx, 21, 3.8, 0.2, 255, 200, 70)
