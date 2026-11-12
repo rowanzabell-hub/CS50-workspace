@@ -14,21 +14,6 @@ def main():
     setup_cameras(scene)
     add_ground(scene)
 
-    # Draw three snowmen in different places
-    simple_snowman(scene, -4, -8)
-    simple_snowman(scene, 0, -12)
-    simple_snowman(scene, 5, -6)
-
-    # TODO (Task 1): call tulip() to plant a tulip. Remember to pass scene first!
-    tulip(scene, 1, 3, 1)
-    tulip(scene, 2, 4, 2)
-    tulip(scene, 3, 4, 5)
-    draw_sedan(scene, 10, 5, 255, 0, 0)
-    streetlight(scene, 8, 4)
-    traffic_cone(scene, 6, 4)
-
-    draw_city_block(scene, 0, 0)
-    draw_city_block(scene, 30, 0)
     add_meshes(scene)
 
     scene.save_scene("florean-fortescue.html", "Florean Fortescue's Ice Cream Parlour HP")
