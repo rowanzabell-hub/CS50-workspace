@@ -31,7 +31,7 @@ def main():
     draw_city_block(scene, 30, 0)
     add_meshes(scene)
 
-    scene.save_scene("simplescene.html", "Simple Sample Scene")
+    scene.save_scene("florean-fortescue.html", "Florean Fortescue's Ice Cream Parlour HP")
 
 
 def tulip(scene, cx, cz, height):
