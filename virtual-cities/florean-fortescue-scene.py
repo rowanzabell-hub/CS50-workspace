@@ -67,20 +67,20 @@ def draw_rainbow_window(scene, cx):
     scene.add_sphere(-0.5, 20, 3.6, 0.48, 237, 164, 139)
     scene.add_sphere(0.5, 20, 3.6, 0.48, 176, 216, 178)
 
-        #Gold center
-        scene.add_sphere(0, 21, 4, 0.35, 240, 197, 115)
+    #Gold center
+    scene.add_sphere(0, 21, 4, 0.35, 240, 197, 115)
 
-    def draw_display_window(scene, cx):
-        # deep plum frame
-        scene.add_box(cx, 5, 3.15, 2.4, 7, 0.2, 97, 55, 122)
-        # light blue glass
-        scene.add_box(cx, 5, 3.3, 2.1, 6.7, 0.2, 169, 215, 226)
-        #Cream vert div
-        scene.add_box(cx, 5, 3.45, 0.12, 6.7, 0.1, 245, 219, 165)
-        #cream mid div
-        scene.add_box(cx, 5, 3.45, 2.1, 0.12, 0.1, 245, 219, 165)
-        #cream bottom div
-        scene.add_box(cx, 2.3, 3.45, 2.1, 0.12, 0.1, 245, 219, 165)
+def draw_display_window(scene, cx):
+    # deep plum frame
+    scene.add_box(cx, 5, 3.15, 2.4, 7, 0.2, 97, 55, 122)
+    # light blue glass
+    scene.add_box(cx, 5, 3.3, 2.1, 6.7, 0.2, 169, 215, 226)
+    #Cream vert div
+    scene.add_box(cx, 5, 3.45, 0.12, 6.7, 0.1, 245, 219, 165)
+    #cream mid div
+    scene.add_box(cx, 5, 3.45, 2.1, 0.12, 0.1, 245, 219, 165)
+    #cream bottom div
+    scene.add_box(cx, 2.3, 3.45, 2.1, 0.12, 0.1, 245, 219, 165)
 
 
 
