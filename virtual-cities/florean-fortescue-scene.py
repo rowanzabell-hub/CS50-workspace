@@ -38,7 +38,11 @@ def draw_ice_cream_shop(scene, cx, cz):
     draw_fairytail_window(scene, 3.4)
     draw_rainbow_window(scene, 0)
 
-
+def draw_display_window(scene, cx):
+    # gold frame
+    scene.add_box(cx, 5, 3.2, 2.5, 7.2, 0.2, 255, 200, 70)
+    #clear mint class
+    scene.add_box(cx, 5, 2.2, 6.9, 0.1, 183, 228, 176, opacity=0.4)
 
 
 
