@@ -14,9 +14,8 @@ def main():
     setup_cameras(scene)
     add_ground(scene)
 
-    add_meshes(scene)
 
-    scene.save_scene("florean-fortescue.html", "Florean Fortescue's Ice Cream Parlour HP")
+   scene.save_scene("florean-fortescue.html", "Florean Fortescue's Ice Cream Parlour HP")
 
 
 def tulip(scene, cx, cz, height):
