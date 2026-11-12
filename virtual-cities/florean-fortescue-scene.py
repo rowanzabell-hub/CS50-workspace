@@ -80,6 +80,7 @@ def draw_rainbow_window(scene, cx):
     # diagonal gold lines
     scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rz=45)
     scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rz=-45)
+    
     # gold center
     scene.add_sphere(cx, 21, 3.8, 0.2, 255, 200, 70)
 
