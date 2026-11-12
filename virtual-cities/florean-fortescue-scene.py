@@ -99,13 +99,12 @@ def draw_grand_entrance(scene):
     scene.add_box(0.58, 3.8, 3.75, 0.8, 2.3, 0.05, 255, 225, 240, opacity=0.5)
 
     #gold door handels
-    scene.add_sphere(-0.15, 2.8, 3.85, )
-    scene.add_sphere
+    scene.add_sphere(-0.15, 2.8, 3.85, 0.1, 255, 200, 70)
+    scene.add_sphere(0.15, 2.8, 3.85, 0.1, 255, 200, 70)
 
-
-
-    scene.add_box
-    scene.add_box
+    #gold door decor
+    scene.add_box(-0.58, 2.1, 3.77, 0.8, 0.07, 0.05, 255, 200, 70)
+    scene.add_box(0.58, 2.1, 0.8, 0.07, 0.05, )
 
 
 
