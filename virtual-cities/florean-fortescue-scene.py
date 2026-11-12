@@ -112,10 +112,32 @@ def draw_grand_entrance(scene):
 
     #gold decor
     scene.add_sphere(-1.5, 6.55, 3.7, 0.22, 255, 200, 70)
-    scene.add_sphere
+    scene.add_sphere(1.5, 6.55, 3.7, 0.22, 255, 200, 70)
 
     #gold beam
-    scene.add_box
+    scene.add_box(0, 6.5, 3.7, 3.5, 0.3, 0.6, 255, 200, 70)
+
+    #pink awning
+    scene.add_box(0, 7.05, 3.8, 4.4, 0.7, 1.25, 255, 155, 185)
+
+    #gold awning trimmmm
+    scene.add_box(0, 7.45, 3.8, 4.55, 0.12, 1.32, 255, 200, 70)
+    scene.add_box(0, 6.7, 4.45, 4.55, 0.12, 0.12, 255, 200, 70)
+
+    #gold decor
+    scene.add_sphere(-1.8, 6.65, 4.5, 0.12, 255, 200, 70)
+    scene.add_sphere(-0.9, 6.65, 4.5, 0.12, 255, 200, 70)
+    scene.add_sphere(0, 6.65, 4.5, 0.12, 255, 200, 70)
+    scene.add_sphere(0.9, 6.65, 4.5, 0.12, 255, 200, 70)
+    scene.add_sphere(1.8, 6.65, 4.5, 0.12, 255, 200, 70)
+
+    #Ice cream sign
+    scene.add_box(0, 8.2, 3.4, 4.4, 1, 0.2, 255, 200, 70)
+    scene.add_box(0, 8.2, 3.55, 4.1, 0.75, 0.1, 145, 35, 75)
+
+    #sign decor
+    scene.add_sphere(-1.85, 8.2, 3.65, 0.12, 255, 200, 70)
+    scene.add_sphere(1.85, 8.2, 3.65, 0.12, 255, 200, 70)
 
 
 
