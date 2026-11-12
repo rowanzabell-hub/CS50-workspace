@@ -14,15 +14,12 @@ def main():
     setup_cameras(scene)
     add_ground(scene)
 
+draw_ice_cream_shop(scene, 0, 0)
 
    scene.save_scene("florean-fortescue.html", "Florean Fortescue's Ice Cream Parlour HP")
 
 def draw_ice_cream_shop(scene, cx, cz):
     scene.add_box(cx, 5, cz, 10, 10, 6, 235, 205, 175)
-
-
-
-
 
 
 
