@@ -26,7 +26,20 @@ def draw_ice_cream_shop(scene, cx, cz):
     # watermelon pink top floor
     scene.add_box(cx, 21, cz, 10, 10, 6, 243, 107, 130)
 
- 
+    #fancy gold
+    scene.add_box(cx, 10, 3.1, 10.3, 0.25, 0.4, 255, 200, 70)
+    scene.add_box(cx, 16, 3.1, 10.3, 0.25, 0.4, 255, 200, 70)
+    scene.add_box(cx, 26, 3.1, 10.3, 0.25, 0.4, 255, 200, 70)
+
+    #new windows
+    draw_display_window(scene, -3)
+    draw_display_window(scene, 3)
+    draw_display_window(scene, -3.4)
+    draw_fairytail_window(scene, 3.4)
+    draw_fairytail_window(scene, 0)
+
+
+
 
 
 def setup_lights(scene):
