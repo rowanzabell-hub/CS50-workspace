@@ -72,10 +72,11 @@ def draw_city_block(scene, cx, cz):
     # Building
     scene.add_box(cx, 6, cz - 15, 10, 12, 8, 180, 190, 220)
 
-    # Two tulips with different heights
+     # Two tulips with different heights
     group= scene.add_group(cx, 0, cz, 0, 0, 0)
     tulip(scene, cx, cz, 1)
     tulip(group, 2, 0, 2)
+    tulip(group, 5, 0, 5)
 
     # traffic cone
     traffic_cone(group, 5, 0)
@@ -87,6 +88,8 @@ def draw_city_block(scene, cx, cz):
     draw_sedan(scene, cx + 5, cz + 4, 50, 100, 255, 90)
 
     # building (make box)
+
+
 
 
 
