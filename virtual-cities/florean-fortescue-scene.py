@@ -104,7 +104,18 @@ def draw_grand_entrance(scene):
 
     #gold door decor
     scene.add_box(-0.58, 2.1, 3.77, 0.8, 0.07, 0.05, 255, 200, 70)
-    scene.add_box(0.58, 2.1, 0.8, 0.07, 0.05, )
+    scene.add_box(0.58, 2.1, 0.8, 0.07, 0.05, 255, 200, 70)
+
+    #gold colloms
+    scene.add_cylinder(-1.5, 6.55, 3.7, 0.22, 255, 200, 70)
+    scene.add_cylinder(1.5, 6.55, 3.7, 0.22, 255, 200, 70)
+
+    #gold decor
+    scene.add_sphere(-1.5, 6.55, 3.7, 0.22, 255, 200, 70)
+    scene.add_sphere
+
+    #gold beam
+    scene.add_box
 
 
 
