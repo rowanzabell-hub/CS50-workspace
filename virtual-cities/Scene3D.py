@@ -266,7 +266,7 @@ class Scene3D:
         self._next_group_id = 0
 
     def add_box(self, cx, cy, cz, xlen, ylen, zlen, r, g, b,
-                roughness=1, metalness=0, rx=0, ry=0, rz=0):
+                roughness=1, metalness=0, rx=0, ry=0, rz=0, opacity=1):
         """
         Add a box to the scene
 
