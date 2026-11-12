@@ -23,8 +23,30 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_box(cx, 5, cz, 10, 10, 6, 240, 170, 148)
     # purple middle floor (middle)
     scene.add_box(cx, 13, cz, 10, 6, 6, 184, 150, 224)
-    # teal 
+    # teal top floor (top)
     scene.add_box(cx, 21, cz, 10, 10, 6, 120, 189, 184)
+    # fairy arch windows (top)
+    draw_fairytale_window(scene, -3.4)
+    draw_fairytale_window(scene, 3.4)
+
+    # rainbow sunburst window
+    draw_rainbow_window(scene, 0)
+
+    #long display windows
+    draw_display_window(scene, 0.3)
+    draw_display_window(scene, 3.4)
+
+
+    def draw_fairytale_window(scene, cx):
+        #deep purple outer fraim
+    scene.add_box(cx, 21, 3.15, 2.1, 4.5, 0.2, 97, 55, 122)
+
+    # round purple top
+    scene.add_cylinder(cx, 23.25, 3.15, 1.05, 0.2, 97, 55, 122, rx=90)
+
+    # Lav glass
+    scene.add_box(cx, 21, 3.3, 1.7, 4.1, 0.2, 97, 55, 122, rx=90)
+
 
 
 
