@@ -62,7 +62,7 @@ def draw_rainbow_window(scene, cx):
     scene.add_sphere(-0.7, 21.7, 3.6, 0.48, 244, 163, 186)
     scene.add_sphere(0, 22, 3.6, 0.48, 242, 203, 116)
     scene.add_sphere(0.7, 21.7, 3.6, 0.48, 166, 218, 220)
-    scene.add_sphere(-0.8, 20.8, 3.6, 0.48192, 164, 235)
+    scene.add_sphere(-0.8, 20.8, 3.6, 0.48, 192, 164, 235)
     scene.add_sphere(0.8, 20.8, 3.6, 0.48, 224, 158, 215)
     scene.add_sphere(-0.5, 20, 3.6, 0.48, 237, 164, 139)
     scene.add_sphere(0.5, 20, 3.6, 0.48, 176, 216, 178)
