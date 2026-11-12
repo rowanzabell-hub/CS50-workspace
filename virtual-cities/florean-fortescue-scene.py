@@ -84,13 +84,16 @@ def draw_rainbow_window(scene, cx):
 
     # pastel rainbow glass
 
-    # pastel rainbow decorations
-    scene.add_sphere(0, 21.65, 3.65, 0.22, 255, 170, 190)
-    scene.add_sphere(0.65, 21.35, 3.65, 0.22, 255, 210, 130)
-    scene.add_sphere(0.65, 20.65, 3.65, 0.22, 140, 220, 180)
-    scene.add_sphere(0, 20.35, 3.65, 0.22, 140, 200, 255)
-    scene.add_sphere(-0.65, 20.65, 3.65, 0.22, 180, 150, 255)
-    scene.add_sphere(-0.65, 21.35, 3.65, 0.22, 255, 160, 210)
+
+
+    # blocky pastel rainbow glass
+    scene.add_box(-0.45, 21.5, 3.65, 0.65, 0.65, 0.05, 255, 170, 190)
+    scene.add_box(0.45, 21.5, 3.65, 0.65, 0.65, 0.05, 255, 215, 130)
+    scene.add_box(-0.65, 21, 3.65, 0.45, 0.45, 0.05, 195, 155, 255)
+    scene.add_box(0.65, 21, 3.65, 0.45, 0.45, 0.05, 150, 235, 170)
+    scene.add_box(-0.45, 20.5, 3.65, 0.65, 0.65, 0.05, 165, 195, 255)
+    scene.add_box(0.45, 20.5, 3.65, 0.65, 0.65, 0.05, 255, 160, 210)
+
 
     # gold center
     scene.add_sphere(cx, 21, 3.8, 0.2, 255, 200, 70)
