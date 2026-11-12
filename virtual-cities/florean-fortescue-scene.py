@@ -80,9 +80,13 @@ def draw_rainbow_window(scene, cx):
     # diagonal gold lines
     scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rz=45)
     scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rz=-45)
-
     # gold center
     scene.add_sphere(cx, 21, 3.8, 0.2, 255, 200, 70)
+
+def draw_grand_entrance(scene):
+    #gold dorway frame
+    scene.add_box(0, 3.2,3.4,2.6, 6.3, 0.2, 255, 200, 70)
+
 
 def setup_lights(scene):
     scene.add_point_light(-100, 200, 0, 200, 200, 200, 1.0)
