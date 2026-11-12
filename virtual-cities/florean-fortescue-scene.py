@@ -73,7 +73,15 @@ def draw_rainbow_window(scene, cx):
     scene.add_cylinder(cx, 21, 3.4, 1.5, 0.1, 255, 105, 180, rx=90, opacity=0.4)
     # raspberry inner circle
     scene.add_cylinder(cx, 21, 3.5, 1.1, 0.1, 217, 50, 81, rx=90, opacity=0.5)
-    
+    # thin gold vertical line
+    scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70)
+    # thin gold horizontal line
+    scene.add_box(cx, 21, 3.6, 0.06, 0.1, 255, 200, 70)
+    # diagonal gold lines
+    scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rx=45)
+    scene.add_box(cx, 21, 3.6, 0.06, 3, 0.1, 255, 200, 70, rx=45)
+    # gold center
+    scene.add_sphere(cx, 21, 3.8, 0.2, 255, 200, 70)
 
 def setup_lights(scene):
     scene.add_point_light(-100, 200, 0, 200, 200, 200, 1.0)
