@@ -108,8 +108,8 @@ def draw_grand_entrance(scene):
     scene.add_box(0.58, 2.1, 3.77, 0.8, 0.07, 0.05, 255, 200, 70)
 
     #gold colloms
-    scene.add_cylinder(-1.5, 6.55, 3.7, 0.22, 255, 200, 70)
-    scene.add_cylinder(1.5, 6.55, 3.7, 0.22, 255, 200, 70)
+    scene.add_cylinder(-1.5, 3.3, 3.7, 0.15, 6.5, 255, 200, 70)
+    scene.add_cylinder(1.5, 3.3, 3.7, 0.15, 6.5, 255, 200, 70)
 
     #gold decor
     scene.add_sphere(-1.5, 6.55, 3.7, 0.22, 255, 200, 70)
