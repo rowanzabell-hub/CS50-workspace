@@ -34,10 +34,10 @@ def draw_ice_cream_shop(scene, cx, cz):
     #new windows
     draw_display_window(scene, -3)
     draw_display_window(scene, 3)
-    draw_display_window(scene, -3.4)
+    draw_fairytail_window(scene, -3.4)
     draw_fairytail_window(scene, 3.4)
     draw_rainbow_window(scene, 0)
-    
+
 
 
 
