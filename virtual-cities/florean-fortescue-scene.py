@@ -154,7 +154,7 @@ def draw_ice_cream_shop(scene, cx, cz):
     #lav
     scene.add_sphere(0, 33.6, 0, 1.4, 195, 160, 245)
     #vanela
-    scene.add_sphere(0, 34.8, 0, 1.1, 255, 240)
+    scene.add_sphere(0, 34.8, 0, 1.1, 255, 240, 210)
     #cherry on top
     scene.add_sphere(0, 35.9, 0, 0.45, 225, 45, 85)
 
