@@ -204,8 +204,9 @@ def draw_ice_cream_shop(scene, cx, cz):
     #chair 1
     scene.add_cylinder(-10.5, 0.8, 10, 0.65, 0.2, 255, 175, 205)
     scene.add_cylinder(-10.5, 1.7, 9.5, 0.65, 1.5, 255, 175, 205)
-    scene.add_cylinder(-5.5, 0.8, 10, )
-    scene.add_cylinder
+    scene.add_cylinder(-5.5, 0.8, 10, 0.65, 0.2, 255, 175, 205)
+    scene.add_cylinder(-5.5, 1.7, 9.5, 0.65, 1.5, 255, 175, 205)
+    
 
 
 def draw_display_window(scene, cx):
