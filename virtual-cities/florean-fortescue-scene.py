@@ -38,6 +38,12 @@ def draw_ice_cream_shop(scene, cx, cz):
     draw_fairytail_window(scene, 3.4)
     draw_rainbow_window(scene, 0)
     draw_grand_entrance(scene)
+    #gold roof piping
+    scene.add_box(0, 26.3, 3.1, 10.5, 0.2, 0.5, 255, 215, 100)
+    scene.add_box(0, 26.6, 3.1, 10.8, 0.2, 0.7, 25, 215, 100)
+    scene.add_box(0, 26.9, 3.1, 11.2, 0.2, 0.9, 225, 215, 100)
+
+
 
 def draw_display_window(scene, cx):
     # gold frame
