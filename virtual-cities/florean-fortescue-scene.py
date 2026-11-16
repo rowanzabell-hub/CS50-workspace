@@ -51,8 +51,8 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_box(-4.85, 3.1, 0.15, 5.8, 0.3, 255, 200, 70)
     scene.add_box(4.85, 3.1, 0.15, 5.8, 0.3, 255, 200, 70)
     #uper gold border
-    scene.add_box
-    scene.add_box
+    scene.add_box(0, 16.3, 3.1, 10.5, 0.5,255, 215, 100)
+    scene.add_box(0, 16.6, 3.1, 10.8, 0.15, 0.7, 255, 200,70)
     #cream roof piping
     scene.add_box
     #TF gold strips
