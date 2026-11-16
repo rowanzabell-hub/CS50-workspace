@@ -73,11 +73,11 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_sphere(2.4, 27.6, 3.1, 0.25, 255, 200, 70)
     scene.add_sphere(3.3, 27.6, 3.1, 0.25, 255, 200, 70)
     #gold pillar base
-    scene.add_box
-    scene.add_box
+    scene.add_box(-4.1, 10.9, 3.6, 0.65, 0.3, 0.65, 255, 225, 140)
+    scene.add_box(4.1, 10.9, 3.6, 0.65, 0.3, 0.65, 255, 225, 140)
     #gold pillar TOP
-    scene.add_box
-    scene.add_box
+    scene.add_box(-4.1, 15.8, 3.6, 0.65, 0.3, 0.65, 255, 225, 140)
+    scene.add_box(4.1, 15.8, 3.6, 0.65, 0.3, 0.65, 255, 225, 140)
     #pink wall stuff
     scene.add_box
     scene.add_box
