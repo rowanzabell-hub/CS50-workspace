@@ -142,7 +142,9 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_cylinder(2.5, 11.5, 5.1, 0.1, 1.2, 255, 200, 70)
     scene.add_cylinder(3.8, 11.5, 5.1, 0.1, 1.2, 255, 200, 70)
 
-
+    #left middle window
+    #frame
+    
 
 
 
