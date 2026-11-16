@@ -40,8 +40,60 @@ def draw_ice_cream_shop(scene, cx, cz):
     draw_grand_entrance(scene)
     #gold roof piping
     scene.add_box(0, 26.3, 3.1, 10.5, 0.2, 0.5, 255, 215, 100)
-    scene.add_box(0, 26.6, 3.1, 10.8, 0.2, 0.7, 25, 215, 100)
-    scene.add_box(0, 26.9, 3.1, 11.2, 0.2, 0.9, 225, 215, 100)
+    scene.add_box(0, 26.6, 3.1, 10.8, 0.2, 0.7, 255, 200, 70)
+    scene.add_box(0, 26.9, 3.1, 11.2, 0.2, 0.9, 255, 225, 140)
+    #pink roof stripe
+    scene.add_box(0, 27.1 3.6, 11.2, 0.1, 0.15, 255, 175, 205)
+    #top floor piping
+    scene.add_box(-4.85, 13, 3.1, 0.15, 5.8, 0.3, 255, 200, 70)
+    scene.add_box(4.85, 13, 3.1, 0.15, 5.8, 0.3, 255, 200, 70)
+    #bf piping in the corner
+    scene.add_box(-4.85, 3.1, 0.15, 5.8, 0.3, 255, 200, 70)
+    scene.add_box(4.85, 3.1, 0.15, 5.8, 0.3, 255, 200, 70)
+    #uper gold border
+    scene.add_box
+    scene.add_box
+    #cream roof piping
+    scene.add_box
+    #TF gold strips
+    scene.add_box
+    scene.add_box
+    #MF gold stripes
+    scene.add_box
+    scene.add_box
+    #roofLO
+    scene.add_box
+    scene.add_sphere
+    #roofRO
+    scene.add_box
+    scene.add_sphere
+    #small gold balls(roof)
+    scene.add_cylinder
+    scene.add_cylinder
+    #gold pillar base
+    scene.add_box
+    scene.add_box
+    #gold pillar TOP
+    scene.add_box
+    scene.add_box
+    #pink wall stuff
+    scene.add_box
+    scene.add_box
+    #extra gold stripes
+    scene.add_box
+    scene.add_box
+    #cream stripes
+    scene.add_box
+    scene.add_box
+    #gold roof caps
+    scene.add_box
+    scene.add_box
+
+
+
+
+
+
 
 
 
