@@ -56,16 +56,16 @@ def draw_ice_cream_shop(scene, cx, cz):
     #cream roof piping
     scene.add_box(0, 27.3, 3.1, 10.5, 0.12, 0.5, 0.12, 0.5, 255, 240, 210)
     #TF gold strips
-    scene.add_box
-    scene.add_box
+    scene.add_box(-4.5, 21, 3.2, 0.12, 9, 0.2, 255, 225, 140)
+    scene.add_box(4.5, 21, 3.2, 0.12, 9, 0.2, 255, 225, 140)
     #MF gold stripes
-    scene.add_box
-    scene.add_box
+    scene.add_box(-4.5, 21, 3.2, 0.12, 9, 0.2, 255, 225, 140)
+    scene.add_box(4.5, 21, 3.2, 0.12, 9, 0.2, 255, 225, 140)
     #roofLO
-    scene.add_box
-    scene.add_sphere
+    scene.add_box(-4.5, 13, 3.2, 0.12, 5, 0.2, 255, 225, 140)
+    scene.add_sphere(4.5, 13, 3.2, 0.12, 5, 0.2, 255, 225, 140)
     #roofRO
-    scene.add_box
+    scene.add_box()
     scene.add_sphere
     #small gold balls(roof)
     scene.add_cylinder
