@@ -161,6 +161,7 @@ def draw_ice_cream_shop(scene, cx, cz):
 
 
 
+
 def draw_display_window(scene, cx):
     # gold frame
     scene.add_box(cx, 5, 3.2, 2.5, 7.2, 0.2, 255, 200, 70)
