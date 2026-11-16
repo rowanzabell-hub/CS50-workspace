@@ -79,17 +79,18 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_box(-4.1, 15.8, 3.6, 0.65, 0.3, 0.65, 255, 225, 140)
     scene.add_box(4.1, 15.8, 3.6, 0.65, 0.3, 0.65, 255, 225, 140)
     #pink wall stuff
-    scene.add_box
-    scene.add_box
+    scene.add_box(-3.7, 13.3, 3.2, 0.12, 4.5, 0.2, 255, 155, 185)
+    scene.add_box(3.7, 13.3, 3.2, 0.12, 4.5, 0.2, 255, 155, 185)
     #extra gold stripes
-    scene.add_box
-    scene.add_box
+    scene.add_box(0, 17.2, 3.1, 10, 0.12, 0.3, 255, 200, 70)
+    scene.add_box(0, 25.2, 3.1, 10, 0.12, 0.3, 255, 200, 70)
     #cream stripes
-    scene.add_box
-    scene.add_box
+    scene.add_box(0, 17.4, 3.1, 10, 0.1, 0.3, 255, 235, 210)
+    scene.add_box(0, 25.45, 3.1, 10, 0.1, 0.3, 255, 235, 210)
     #gold roof caps
-    scene.add_box
-    scene.add_box
+    scene.add_box(-4.9, 26.3, 3.1, 0.5, 0.6, 0.7, 255, 200, 70)
+    scene.add_box(4.9, 26.3, 3.1, 0.5, 0.6, 0.7, 255, 200, 70)
+    
 
 
 
