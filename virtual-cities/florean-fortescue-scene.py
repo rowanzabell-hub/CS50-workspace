@@ -195,16 +195,16 @@ def draw_rainbow_window(scene, cx):
 
     # pastel rainbow glass
     scene.add_box(-0.7, 21.7, 3.7, 0.45, 0.45, 0.1, 255, 145, 185)
-    scene.add_box()
-    scene.add_box
+    scene.add_box(0, 21.7, 3.7, 0.45, 0.45, 0.1, 255, 195, 120)
+    scene.add_box(0.7, 21.7, 3.7, 0.45, 0.45, 0.1, 255, 235, 140)
 
-    scene.add_box
-    scene.add_box
-    scene.add_box
+    scene.add_box(-0.7, 21, 3.7, 0.45, 0.45, 0.1, 175, 225, 165)
+    scene.add_box(0, 21, 3.7, 0.45, 0.45, 0.1, 145, 205, 255)
+    scene.add_box(0.7, 21, 3.7, 0.45, 0.45, 0.1, 190, 155, 235)
 
-    scene.add_box
-    scene.add_box
-    scene.add_box
+    scene.add_box(-0.7, 20.3, 3.7, 0.45, 0.45, 0.1, 255, 185, 220)
+    scene.add_box(0, 20.3, 3.7, 0.45, 0.45, 0.1, 175, 235, 225)
+    scene.add_box(0.7, 20.3, 3.7, 0.45, 0.45, 0.1, 225, 185, 255)
 
 
 
