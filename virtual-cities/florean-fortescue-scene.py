@@ -173,25 +173,39 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_box(-29, 7, 0, 9, 14, 7, 160, 195, 155)
     scene.add_box(-29, 14.3, 0, 10, 0.6, 8, 255, 235, 205)
     scene.add_box(-31, 9, 3.6, 2, 3, 0.2, 255, 225, 165)
-    scene.add_box()
-    scene.add_box
-    scene.add_sphere
+    scene.add_box(-27, 9, 3.6, 2, 3, 0.2, 255, 225, 165)
+    scene.add_box(-29, 2.5, 3.7, 2.5, 5, 0.2, 115, 145, 105)
+    scene.add_sphere(-28.5, 2.5, 3.9, 0.15, 255, 200, 70)
 
     #blue shop on right
-    scene.add_box
-    scene.add_box
-    scene.add_box
-    scene.add_box
-    scene.add_box
-    scene.add_sphere
+    scene.add_box(18, 9, 0, 9, 18, 7, 155, 205, 235)
+    scene.add_box(18, 18.3, 0, 10, 0.6, 8, 255, 165, 195)
+    scene.add_box(16, 11, 3.6, 2, 3, 0.2, 255, 235, 180)
+    scene.add_box(20, 11, 3.6, 2, 3, 0.2, 255, 235, 180)
+    scene.add_box(18, 2.5, 3.7, 2.5, 5, 0.2, 200, 115, 155)
+    scene.add_sphere(18.5, 2.5, 3.9, 0.15, 255, 200, 70)
 
     #yellow shop on right
-    scene.add_box
-    scene.add_box
-    scene.add_box
-    scene.add_box
-    scene.add_box
-    scene.add_sphere
+    scene.add_box(29, 7.5, 0, 9, 15, 7, 255, 220, 145)
+    scene.add_box(29, 15.3, 0, 10, 0.6, 8, 190, 65, 105)
+    scene.add_box(27, 9, 3.6, 2, 3, 0.2, 255, 240, 195)
+    scene.add_box(31, 9, 3.6, 2, 3, 0.2, 255, 240, 195)
+    scene.add_box(29, 2.5, 3.7, 2.5, 5, 0.2, 145, 65, 95)
+    scene.add_sphere(29.5, 2.5, 3.9, 0.15, 255, 200, 70)
+
+
+    #TABLE 1 (left)
+    #table leg
+    scene.add_cylinder(-8, 1.5, 10, 0.15, 3, 255, 200, 70)
+    #tabel top
+    scene.add_cylinder(-8, 3, 10, 1.4, 0.2, 255, 165, 70)
+    #tabel trim
+    scene.add_cylinder(-8, 3.15, 10, 1.3, 0.08, 255, 200, 70)
+    #chair 1
+    scene.add_cylinder(-10.5, 0.8, 10, 0.65, 0.2, 255, 175, 205)
+    scene.add_cylinder(-10.5, 1.7, 9.5, 0.65, 1.5, 255, 175, 205)
+    scene.add_cylinder(-5.5, 0.8, 10, )
+    scene.add_cylinder
 
 
 def draw_display_window(scene, cx):
