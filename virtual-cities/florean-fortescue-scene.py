@@ -93,7 +93,7 @@ def draw_ice_cream_shop(scene, cx, cz):
 
     #living wall
     scene.add_box(0, 13, 3.2, 7.3, 4.5, 0.2, 45, 110, 65)
-    scene.add_box(0, 13, 3.35, 6.8, 4, 0.1, 6.5, 140, 75)
+    scene.add_box(0, 13, 3.35, 6.8, 4, 0.1, 65, 140, 75)
 
     #green wall+gold border
     scene.add_box(0, 15.3, 3.5, 7.6, 0.15, 0.2, 255, 200, 70)
