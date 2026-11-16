@@ -162,6 +162,22 @@ def draw_ice_cream_shop(scene, cx, cz):
 
 
     #purple shop on left
+    scene.add_box(-18, 8, 0, 9, 16, 7, 190, 160, 225)
+    scene.add_box(-18, 16.3, 0, 10, 0.6, 8, 135, 95, 185)
+    scene.add_box(-20, 10, 3.6, 2, 3, 0.2, 255, 220, 140)
+    scene.add_box(-16, 10, 3.6, 2, 3, 0.2, 255, 220, 140)
+    scene.add_box(-18, 2.5, 3.7, 2.5, 5, 0.2, 110, 75, 145)
+    scene.add_sphere(-17.5, 2.5, 3.9, 0.15, 255, 200, 70)
+
+    #green shop on left
+    scene.add_box(-29, 7, 0, 9, 14, 7, 160, 195, 155)
+    scene.add_box(-29, 14.3, 0, 10, 0.6, 8, 255, 235, 205)
+    scene.add_box(-31, 9, 3.6, 2, 3, 0.2, 255, 225, 165)
+    scene.add_box()
+    scene.add_box
+    scene.add_sphere
+
+    #blue shop on right
     scene.add_box
     scene.add_box
     scene.add_box
@@ -169,20 +185,7 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_box
     scene.add_sphere
 
-    scene.add_box
-    scene.add_box
-    scene.add_box
-    scene.add_box
-    scene.add_box
-    scene.add_sphere
-
-    scene.add_box
-    scene.add_box
-    scene.add_box
-    scene.add_box
-    scene.add_box
-    scene.add_sphere
-
+    #yellow shop on right
     scene.add_box
     scene.add_box
     scene.add_box
