@@ -65,11 +65,11 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_box(-4.5, 13, 3.2, 0.12, 5, 0.2, 255, 225, 140)
     scene.add_sphere(4.5, 13, 3.2, 0.12, 5, 0.2, 255, 225, 140)
     #roofRO
-    scene.add_box(4.3, 27.7, 3.1 )
-    scene.add_sphere
+    scene.add_box(4.3, 27.7, 3.1, 0.7, 0.7, 0.7, 255, 175, 205)
+    scene.add_sphere(-4.3, 28.4, 3.1, 0.45, 255, 200, 70)
     #small gold balls(roof)
-    scene.add_cylinder
-    scene.add_cylinder
+    scene.add_sphere()
+    scene.add_sphere
     #gold pillar base
     scene.add_box
     scene.add_box
