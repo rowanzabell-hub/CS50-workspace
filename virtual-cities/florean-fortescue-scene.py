@@ -90,8 +90,9 @@ def draw_ice_cream_shop(scene, cx, cz):
     #gold roof caps
     scene.add_box(-4.9, 26.3, 3.1, 0.5, 0.6, 0.7, 255, 200, 70)
     scene.add_box(4.9, 26.3, 3.1, 0.5, 0.6, 0.7, 255, 200, 70)
-    
 
+    #living wall
+    
 
 
 
