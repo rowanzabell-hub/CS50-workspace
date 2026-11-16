@@ -115,13 +115,13 @@ def draw_ice_cream_shop(scene, cx, cz):
 
     #flowers(hydrangas aka my favorite flower in the world)
     #pink
-    scene.add_sphere
-    scene.add_sphere
-    scene.add_sphere
+    scene.add_sphere(-2.3, 13.6, 3.9, 0.5, 255, 105, 180)
+    scene.add_sphere(-1.9, 13.9, 0.35, 255, 190, 220)
+    scene.add_sphere(-2.6, 13.9, 3.9, 0.25, 235, 65, 145)
     #purple
-    scene.add_sphere
-    scene.add_sphere
-    scene.add_sphere
+    scene.add_sphere(0, 13.4, 0.5, 190, 155, 235)
+    scene.add_sphere(0.4, 13.7, 3.9, 0.35, 335, 195, 255)
+    scene.add_sphere(-0.4, 13.7, 3.9, 0.35, 145, 95, 205)
     #blue
     scene.add_sphere(2.3, 13.6, 3.9, 0.5, 135, 195, 255)
     scene.add_sphere(2.7, 13.9, 0.35, 175, 220, 255)
