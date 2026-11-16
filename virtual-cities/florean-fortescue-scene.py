@@ -131,8 +131,16 @@ def draw_ice_cream_shop(scene, cx, cz):
     #pink floor on B
     scene.add_box(0, 10.6, 4.2, 8.1, 0.15, 1.8, 255, 175, 205)
     #gold railing on B
-    scene.add_box(0, 12, 5.1, )
-    scene.add_box
+    scene.add_box(0, 12, 5.1, 8.5, 0.15, 0.2, 255, 200, 70)
+    scene.add_box(0, 10.9, 5.1, 8.5, 0.15, 0.2, 255, 200, 70)
+    #gold posts on B
+    scene.add_cylinder(-3.8, 11.5, 5.1, 0.1, 1.2, 255, 200, 70)
+    scene.add_cylinder(-2.5, 11.5, 5.1, 0.1, 1.2, 255, 200, 70)
+    scene.add_cylinder(-1.2, 11.5, 5.1, 0.1, 1.2, 255, 200, 70)
+    scene.add_cylinder(0, 11.5, 5.1, 0.1, 1.2, 255, 200, 70)
+    scene.add_cylinder(1.2, 11.5, 5.1, 0.1, 1.2, 255, 200, 70)
+    scene.add_cylinder(2.5, 11.5, 5.1, 0.1, 1.2, 255, 200, 70)
+    scene.add_cylinder(3.8, 11.5, 5.1, 0.1, 1.2, 255, 200, 70)
 
 
 
