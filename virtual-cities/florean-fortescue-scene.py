@@ -92,7 +92,40 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_box(4.9, 26.3, 3.1, 0.5, 0.6, 0.7, 255, 200, 70)
 
     #living wall
-    
+    scene.add_box(0, 13, 3.2, 7.3, 4.5, 0.2, 45, 110, 65)
+    scene.add_box(0, 13, 3.35, 6.8, 4, 0.1, 6.5, 140, 75)
+
+    #green wall+gold border
+    scene.add_box(0, 15.3, 3.5, 7.6, 0.15, 0.2, 255, 200, 70)
+    scene.add_box(0, 10.7, 3.5, 7.6, 0.15, 0.2, 255, 200, 70)
+    scene.add_box(-3.7, 13, 3.5, 0.15, 4.6, 0.2, 255, 200, 70)
+    scene.add_box(3.7, 13, 3.5, 0.15, 4.6, 0.2, 255, 200, 70)
+    #leavesfor LW
+    scene.add_sphere(-2.8, 14.5, 3.6, 0.55, 35, 125, 65)
+    scene.add_sphere(-1.6, 14.7, 3.6, 0.65, 50, 155, 75)
+    scene.add_sphere(-0.3, 14.4, 3.6, 0.55, 35, 125, 65)
+    scene.add_sphere(1, 14.7, 3.6, 0.65, 50, 155, 75)
+    scene.add_sphere(2.5, 14.5, 3.6, 0.55, 35, 125, 65)
+    #low leaves
+    scene.add_sphere(-2.6, 11.6, 3.6, 0.6, 50, 155, 75)
+    scene.add_sphere(-1.2, 11.4, 3.6, 0.55, 35, 125, 65)
+    scene.add_sphere(0.3, 11.6, 3.6, 0.65, 50, 155, 75)
+    scene.add_sphere(1.7, 11.4, 3.6, 0.55, 35, 125, 65)
+    scene.add_sphere(2.8, 11.6, 3.6, 0.6, 50, 155, 75)
+
+    #flowers(hydrangas aka my favorite flower in the world)
+    #pink
+    scene.add_sphere
+    scene.add_sphere
+    scene.add_sphere
+    #purple
+    scene.add_sphere
+    scene.add_sphere
+    scene.add_sphere
+    #blue
+    scene.add_sphere(2.3, 13.6, 3.9, 0.5, 135, 195, 255)
+    scene.add_sphere(2.7, 13.9, 0.35, 175, 220, 255)
+    scene.add_sphere(1.9, 13.9, 3.9, 0.35, 105, 165, 235)
 
 
 
