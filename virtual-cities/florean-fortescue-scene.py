@@ -154,7 +154,7 @@ def draw_ice_cream_shop(scene, cx, cz):
 
     #RM window
     #frame
-    scene.add_box(5.1, 13, 0m 0.2, 4.5, 2.5, 255, 200, 70)
+    scene.add_box(5.1, 13, 0, 0.2, 4.5, 2.5, 255, 200, 70)
     #blue glass
     scene.add_box(5.25, 13, 0, 0.1, 4.2, 2.2, 165, 215, 255)
     #gold div
