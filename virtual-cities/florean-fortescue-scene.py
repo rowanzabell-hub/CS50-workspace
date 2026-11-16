@@ -142,28 +142,21 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_cylinder(2.5, 11.5, 5.1, 0.1, 1.2, 255, 200, 70)
     scene.add_cylinder(3.8, 11.5, 5.1, 0.1, 1.2, 255, 200, 70)
 
-    #left middle window
-    #frame
-    scene.add_box(-5.1, 13, 0, 0.2, 4.5, 2.5, 255, 200, 70)
-    #purple glass
-    scene.add_box(-5.25, 13, 0, 0.1, 4.2, 2.2, 190, 170, 245)
-    #gold div
-    scene.add_box(-5.35, 13, 0, 0.1, 4.2, 0.08, 255, 200, 70)
-    #gold div
-    scene.add_box(-5.35, 13, 0, 0.1, 0.08, 2.2, 255, 200, 70)
-
-    #RM window
-    #frame
-    scene.add_box(5.1, 13, 0, 0.2, 4.5, 2.5, 255, 200, 70)
-    #blue glass
-    scene.add_box(5.25, 13, 0, 0.1, 4.2, 2.2, 165, 215, 255)
-    #gold div
-    scene.add_box(5.35, 13, 0, 0.1, 4.2, 0.08, 255, 200, 70)
-    #gold vert
-    scene.add_box(5.35, 13, 0, 0.1, 0.08, 2.2, 255, 200, 70)
-
-
-
+    #giant ice cream cone
+    #gold stand
+    scene.add_cylinder(0, 27.3, 0, 2, 0.5, 255, 200, 70)
+    #pink stand
+    scene.add_cylinder(0, 27.7, 0, 1.7, 0.3, 255, 175, 205)
+    #waffle cone
+    scene.add_cone(0, 30, 0, 1.5, 4, 225, 175, 105, rx=180)
+    #strawberry
+    scene.add_sphere(0, 32.2, 0, 1.7, 255, 145, 190)
+    #lav
+    scene.add_sphere(0, 33.6, 0, 1.4, 195, 160, 245)
+    #vanela
+    scene.add_sphere(0, 34.8, 0, 1.1, 255, 240)
+    #cherry on top
+    scene.add_sphere(0, 35.9, 0, 0.45, 225, 45, 85)
 
 
 
