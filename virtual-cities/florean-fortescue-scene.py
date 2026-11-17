@@ -206,6 +206,33 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_cylinder(-10.5, 1.7, 9.5, 0.65, 1.5, 255, 175, 205)
     scene.add_cylinder(-5.5, 0.8, 10, 0.65, 0.2, 255, 175, 205)
     scene.add_cylinder(-5.5, 1.7, 9.5, 0.65, 1.5, 255, 175, 205)
+    #umbrella 1
+    #pole
+    scene.add_cylinder(-8.5, 5, 10, 0.12, 7, 255, 200, 70)
+    #pink umbrella
+    scene.add_cone(-8, 8.5, 10, 3, 1.5, 255, 155, 195)
+    #stripes
+    scene.add_box(-9.5, 8, 10, 0.5, 0.1, 2, 255, 240, 220)
+    scene.add_box(-6.5, 8, 10, 0.5, 0.1, 2, 255, 240, 220)
+    #gold top
+    scene.add_sphere(-8, 9.3, 10, 0.2, 255, 200, 70)
+    #Ice cream for table one
+    scene.add_cylinder(-8.7, 3.4, 10, 0.35, 0.15, 185, 225, 245)
+    #strawberry
+    scene.add_sphere(-8.7, 3.65, 10, 0.35, 255, 125, 175)
+    #vanella
+    scene.add_sphere(-8.7, 4, 10, 0.25, 255, 245, 205)
+    #cherry
+    scene.add_sphere(-8.7, 4.3, 10, 0.1, 220, 35, 65)
+    #parchment on table
+    scene.add_box(-7.3, 3.3, 10, 0.8, 0.05, 0.6, 255, 240, 205)
+    #writing
+    scene.add_box(-7.3, 3.35, 10, 0.5, 0.02, 0.04, 120, 85, 65)
+    scene.add_box(-7.3, 3.34, 10.2, 0.5, 0.02, 0.04, 120, 85, 65)
+    #ink
+    scene.add_cylinder(-7, 3.45, 9.4, 0.15, 0.25, 65, 40, 95)
+    #quill
+    scene.add_cylinder(-7.4, 3.65, 9.4, 0.035, 0.9, 255, 235, 205)
     
 
 
