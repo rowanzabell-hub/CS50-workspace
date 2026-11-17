@@ -295,17 +295,17 @@ def draw_ice_cream_shop(scene, cx, cz):
     #left light
     scene.add_cylinder(-13, 3, 5, 0.15, 6, 255, 200, 70)
     scene.add_sphere(-13, 6.2, 5, 0.55, 255, 240, 175)
-    scene.add_sphere-13, 6.8, 5, 0.2, 255, 200, 70
+    scene.add_sphere(-13, 6.8, 5, 0.2, 255, 200, 70)
     #right lamp
-    scene.add_cylinder
-    scene.add_sphere
-    scene.add_sphere
+    scene.add_cylinder(13, 3, 5, 0.15, 6, 255, 200, 70)
+    scene.add_sphere(13, 6.2, 5, 0.55, 255, 240, 175)
+    scene.add_sphere(13, 6.8, 5, 0.2, 255, 200, 70)
 
     #enterance path
-    scene.add_box
+    scene.add_box(0, 0.05, 11, 3, 0.1, 13, 255, 205, 215)
     #gold border
-    scene.add_box
-    scene.add_box
+    scene.add_box(-1.6, 0.12, 11, 0.12, 0.12, 13, 255, 200, 70)
+    scene.add_box(1.6, 0.12, 11, 0.12, 0.12, 13, 255, 200, 70)
 
 
 
