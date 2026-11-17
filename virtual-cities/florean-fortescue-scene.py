@@ -249,23 +249,23 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_cylinder(8, 5, 10, 0.12, 7, 255, 200, 70)
     scene.add_cone(8, 8.5, 10, 3, 1.5, 205, 165, 245)
     scene.add_box(6.5, 8, 10, 0.5, 0.1, 2, 255, 240, 220)
-    scene.add_box
-    scene.add_sphere
+    scene.add_box(9.5, 8, 10, 0.5, 0.1, 2, 255, 240, 220)
+    scene.add_sphere(8, 9.3, 10, 0.2, 255, 200, 70)
 
     #table 2 ice cream
-    scene.add_cylinder
-    scene.add_sphere
-    scene.add_sphere
-    scene.add_sphere
+    scene.add_cylinder(7.3, 3.4, 10, 0.35, 0.15, 185, 225, 245)
+    scene.add_sphere(7.3, 3.65, 10, 0.35, 165, 205, 255)
+    scene.add_sphere(7.3, 4, 10, 0.25, 205, 165, 245)
+    scene.add_sphere(7.3, 4.3, 0.1, 220, 35, 65)
 
     #table 2 parchment
-    scene.add_box
-    scene.add_box
-    scene.add_box
+    scene.add_box(8.7, 3.3, 10, 0.8, 0.05, 0.6, 255, 240, 205)
+    scene.add_box(8.7, 3.35, 10, 0.5, 0.02, 0.04, 120, 85, 65)
+    scene.add_box(8.7, 3.35, 10.2, 0.5, 0.02, 0.04, 120, 85, 65)
     #ink
-    scene.add_cylinder
+    scene.add_cylinder(9, 3.45, 9.4, 0.15, 0.25, 65, 40, 95)
     #quill
-    scene.add_cylinder
+    scene.add_cylinder(8.6, 3.65, 9.4, 0.035, 0.9, 255, 235, 205)
 
     #extra table
     scene.add_cylinder
