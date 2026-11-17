@@ -256,7 +256,7 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_cylinder(7.3, 3.4, 10, 0.35, 0.15, 185, 225, 245)
     scene.add_sphere(7.3, 3.65, 10, 0.35, 165, 205, 255)
     scene.add_sphere(7.3, 4, 10, 0.25, 205, 165, 245)
-    scene.add_sphere(7.3, 4.3, 0.1, 220, 35, 65)
+    scene.add_sphere(7.3, 4.3, 10, 0.1, 220, 35, 65)
 
     #table 2 parchment
     scene.add_box(8.7, 3.3, 10, 0.8, 0.05, 0.6, 255, 240, 205)
