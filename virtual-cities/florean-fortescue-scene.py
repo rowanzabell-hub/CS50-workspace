@@ -233,7 +233,125 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_cylinder(-7, 3.45, 9.4, 0.15, 0.25, 65, 40, 95)
     #quill
     scene.add_cylinder(-7.4, 3.65, 9.4, 0.035, 0.9, 255, 235, 205)
-    
+
+    #CAFE TABLE 2
+    scene.add_cylinder(8, 1.5, 10, 0.15, 3, 255, 200, 70)
+    scene.add_cylinder(8, 3, 10, 1.4, 0.2, 255, 165, 195)
+    scene.add_cylinder(8, 3.15, 10, 1.3, 0.08, 255, 200, 70)
+
+    #two chairs
+    scene.add_cylinder(5.5, 0.8, 10, 0.65, 0.2, 205, 175, 245)
+    scene.add_cylinder(5.5, 1.7, 9.5, 0.65, 1.5, 205, 175, 245)
+    scene.add_cylinder(10.5, 0.8, 10, 0.65, 0.2, 205, 175, 245)
+    scene.add_cylinder(10.5, 1.7, 9.5, 0.65, 1.5, 205, 175, 245)
+
+    #table 2 umbrella
+    scene.add_cylinder(8)
+    scene.add_cone
+    scene.add_box
+    scene.add_box
+    scene.add_sphere
+
+    #table 2 ice cream
+    scene.add_cylinder
+    scene.add_sphere
+    scene.add_sphere
+    scene.add_sphere
+
+    #table 2 parchment
+    scene.add_box
+    scene.add_box
+    scene.add_box
+    #ink
+    scene.add_cylinder
+    #quill
+    scene.add_cylinder
+
+    #extra table
+    scene.add_cylinder
+    scene.add_cylinder
+    scene.add_cylinder
+    scene.add_cone
+    scene.add_sphere
+    #chairs
+    scene.add_cylinder
+    scene.add_cylinder
+    scene.add_cylinder
+    scene.add_sphere
+    scene.add_box
+    #ice cream
+    scene.add_cylinder
+    scene.add_cylinder
+    scene.add_cylinder
+    scene.add_sphere
+    scene.add_box
+
+    #extra table
+    scene.add_cylinder
+    scene.add_cylinder
+    scene.add_cylinder
+    scene.add_cone
+    scene.add_sphere
+    #chairs
+    scene.add_cylinder
+    scene.add_cylinder
+    scene.add_cylinder
+    scene.add_sphere
+    scene.add_box
+    #ice cream
+    scene.add_cylinder
+    scene.add_cylinder
+    scene.add_cylinder
+    scene.add_sphere
+    scene.add_box
+
+    #flowerpot (left)
+    scene.add_cylinder
+    scene.add_cylinder
+    #leaves
+    scene.add_sphere
+    scene.add_sphere
+    scene.add_sphere
+    #hydrangas
+    scene.add_sphere
+    scene.add_sphere
+    scene.add_sphere
+
+    #flowerpot (right)
+    scene.add_cylinder
+    scene.add_cylinder
+    #leaves
+    scene.add_sphere
+    scene.add_sphere
+    scene.add_sphere
+    #hydrangas
+    scene.add_sphere
+    scene.add_sphere
+    scene.add_sphere
+
+    #gold lights
+    #left light
+    scene.add_cylinder
+    scene.add_sphere
+    scene.add_sphere
+    #right lamp
+    scene.add_cylinder
+    scene.add_sphere
+    scene.add_sphere
+
+    #enterance path
+    scene.add_box
+    #gold border
+    scene.add_box
+    scene.add_box
+
+
+
+
+
+
+
+
 
 
 def draw_display_window(scene, cx):
