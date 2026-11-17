@@ -246,9 +246,9 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_cylinder(10.5, 1.7, 9.5, 0.65, 1.5, 205, 175, 245)
 
     #table 2 umbrella
-    scene.add_cylinder(8)
-    scene.add_cone
-    scene.add_box
+    scene.add_cylinder(8, 5, 10, 0.12, 7, 255, 200, 70)
+    scene.add_cone(8, 8.5, 10, 3, 1.5, 205, 165, 245)
+    scene.add_box(6.5, 8, 10, 0.5, 0.1, 2, 255, 240, 220)
     scene.add_box
     scene.add_sphere
 
