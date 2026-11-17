@@ -268,34 +268,34 @@ def draw_ice_cream_shop(scene, cx, cz):
     scene.add_cylinder(8.6, 3.65, 9.4, 0.035, 0.9, 255, 235, 205)
 
     #flowerpot (left)
-    scene.add_cylinder
-    scene.add_cylinder
+    scene.add_cylinder(-12, 0.7, 7, 0.7, 1.4, 255, 175, 205)
+    scene.add_cylinder(-12, 1.5, 7, 0.8, 0.2, 255, 200, 70)
     #leaves
-    scene.add_sphere
-    scene.add_sphere
-    scene.add_sphere
+    scene.add_sphere(-12, 2, 7, 0.65, 45, 145, 75)
+    scene.add_sphere(-12.5, 2.2, 7, 0.4, 55, 165, 85)
+    scene.add_sphere(-11.5, 2.2, 7, 0.4, 55, 165, 85)
     #hydrangas
-    scene.add_sphere
-    scene.add_sphere
-    scene.add_sphere
+    scene.add_sphere(-12, 2.6, 7, 0.4, 255, 125, 185)
+    scene.add_sphere(-12.4, 2.5, 7, 0.3, 255, 185, 215)
+    scene.add_sphere(-11.6, 2.5, 7, 0.3, 235, 95, 155)
 
     #flowerpot (right)
-    scene.add_cylinder
-    scene.add_cylinder
+    scene.add_cylinder(12, 0.7, 7, 0.7, 1.4, 205, 175, 245)
+    scene.add_cylinder(12, 1.5, 7, 0.8, 0.2, 255, 200, 70)
     #leaves
-    scene.add_sphere
-    scene.add_sphere
-    scene.add_sphere
+    scene.add_sphere(12, 2, 7, 0.65, 45, 145, 75)
+    scene.add_sphere(11.5, 2.2, 7, 0.4, 55, 165, 85)
+    scene.add_sphere(12.5, 2.2, 7, 0.4, 55, 165, 85)
     #hydrangas
-    scene.add_sphere
-    scene.add_sphere
-    scene.add_sphere
+    scene.add_sphere(12, 2.6, 7, 0.4, 135, 195, 255)
+    scene.add_sphere(11.6, 2.5, 7, 0.3, 175, 220, 255)
+    scene.add_sphere(12.4, 2.5, 7, 0.3, 105, 155, 235)
 
     #gold lights
     #left light
-    scene.add_cylinder
-    scene.add_sphere
-    scene.add_sphere
+    scene.add_cylinder(-13, 3, 5, 0.15, 6, 255, 200, 70)
+    scene.add_sphere(-13, 6.2, 5, 0.55, 255, 240, 175)
+    scene.add_sphere-13, 6.8, 5, 0.2, 255, 200, 70
     #right lamp
     scene.add_cylinder
     scene.add_sphere
