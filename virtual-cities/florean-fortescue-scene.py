@@ -267,44 +267,6 @@ def draw_ice_cream_shop(scene, cx, cz):
     #quill
     scene.add_cylinder(8.6, 3.65, 9.4, 0.035, 0.9, 255, 235, 205)
 
-    #extra table
-    scene.add_cylinder
-    scene.add_cylinder
-    scene.add_cylinder
-    scene.add_cone
-    scene.add_sphere
-    #chairs
-    scene.add_cylinder
-    scene.add_cylinder
-    scene.add_cylinder
-    scene.add_sphere
-    scene.add_box
-    #ice cream
-    scene.add_cylinder
-    scene.add_cylinder
-    scene.add_cylinder
-    scene.add_sphere
-    scene.add_box
-
-    #extra table
-    scene.add_cylinder
-    scene.add_cylinder
-    scene.add_cylinder
-    scene.add_cone
-    scene.add_sphere
-    #chairs
-    scene.add_cylinder
-    scene.add_cylinder
-    scene.add_cylinder
-    scene.add_sphere
-    scene.add_box
-    #ice cream
-    scene.add_cylinder
-    scene.add_cylinder
-    scene.add_cylinder
-    scene.add_sphere
-    scene.add_box
-
     #flowerpot (left)
     scene.add_cylinder
     scene.add_cylinder
